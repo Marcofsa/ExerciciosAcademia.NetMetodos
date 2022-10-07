@@ -1,0 +1,15 @@
+C:\GIT REP\ExercicioMetodos4\ExercicioMetodos4\bin\Debug\net6.0\ExercicioMetodos4.exe
+C:\GIT REP\ExercicioMetodos4\ExercicioMetodos4\bin\Debug\net6.0\ExercicioMetodos4.deps.json
+C:\GIT REP\ExercicioMetodos4\ExercicioMetodos4\bin\Debug\net6.0\ExercicioMetodos4.runtimeconfig.json
+C:\GIT REP\ExercicioMetodos4\ExercicioMetodos4\bin\Debug\net6.0\ExercicioMetodos4.dll
+C:\GIT REP\ExercicioMetodos4\ExercicioMetodos4\bin\Debug\net6.0\ExercicioMetodos4.pdb
+C:\GIT REP\ExercicioMetodos4\ExercicioMetodos4\obj\Debug\net6.0\ExercicioMetodos4.csproj.AssemblyReference.cache
+C:\GIT REP\ExercicioMetodos4\ExercicioMetodos4\obj\Debug\net6.0\ExercicioMetodos4.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT REP\ExercicioMetodos4\ExercicioMetodos4\obj\Debug\net6.0\ExercicioMetodos4.AssemblyInfoInputs.cache
+C:\GIT REP\ExercicioMetodos4\ExercicioMetodos4\obj\Debug\net6.0\ExercicioMetodos4.AssemblyInfo.cs
+C:\GIT REP\ExercicioMetodos4\ExercicioMetodos4\obj\Debug\net6.0\ExercicioMetodos4.csproj.CoreCompileInputs.cache
+C:\GIT REP\ExercicioMetodos4\ExercicioMetodos4\obj\Debug\net6.0\ExercicioMetodos4.dll
+C:\GIT REP\ExercicioMetodos4\ExercicioMetodos4\obj\Debug\net6.0\refint\ExercicioMetodos4.dll
+C:\GIT REP\ExercicioMetodos4\ExercicioMetodos4\obj\Debug\net6.0\ExercicioMetodos4.pdb
+C:\GIT REP\ExercicioMetodos4\ExercicioMetodos4\obj\Debug\net6.0\ExercicioMetodos4.genruntimeconfig.cache
+C:\GIT REP\ExercicioMetodos4\ExercicioMetodos4\obj\Debug\net6.0\ref\ExercicioMetodos4.dll

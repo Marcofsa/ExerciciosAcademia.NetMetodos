@@ -1,0 +1,15 @@
+C:\GIT REP\ExemplosAulas\ExemplosAulasOBJ\ExemplosAulasOBJ\bin\Debug\net6.0\ExemplosAulasOBJ.exe
+C:\GIT REP\ExemplosAulas\ExemplosAulasOBJ\ExemplosAulasOBJ\bin\Debug\net6.0\ExemplosAulasOBJ.deps.json
+C:\GIT REP\ExemplosAulas\ExemplosAulasOBJ\ExemplosAulasOBJ\bin\Debug\net6.0\ExemplosAulasOBJ.runtimeconfig.json
+C:\GIT REP\ExemplosAulas\ExemplosAulasOBJ\ExemplosAulasOBJ\bin\Debug\net6.0\ExemplosAulasOBJ.dll
+C:\GIT REP\ExemplosAulas\ExemplosAulasOBJ\ExemplosAulasOBJ\bin\Debug\net6.0\ExemplosAulasOBJ.pdb
+C:\GIT REP\ExemplosAulas\ExemplosAulasOBJ\ExemplosAulasOBJ\obj\Debug\net6.0\ExemplosAulasOBJ.csproj.AssemblyReference.cache
+C:\GIT REP\ExemplosAulas\ExemplosAulasOBJ\ExemplosAulasOBJ\obj\Debug\net6.0\ExemplosAulasOBJ.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT REP\ExemplosAulas\ExemplosAulasOBJ\ExemplosAulasOBJ\obj\Debug\net6.0\ExemplosAulasOBJ.AssemblyInfoInputs.cache
+C:\GIT REP\ExemplosAulas\ExemplosAulasOBJ\ExemplosAulasOBJ\obj\Debug\net6.0\ExemplosAulasOBJ.AssemblyInfo.cs
+C:\GIT REP\ExemplosAulas\ExemplosAulasOBJ\ExemplosAulasOBJ\obj\Debug\net6.0\ExemplosAulasOBJ.csproj.CoreCompileInputs.cache
+C:\GIT REP\ExemplosAulas\ExemplosAulasOBJ\ExemplosAulasOBJ\obj\Debug\net6.0\ExemplosAulasOBJ.dll
+C:\GIT REP\ExemplosAulas\ExemplosAulasOBJ\ExemplosAulasOBJ\obj\Debug\net6.0\refint\ExemplosAulasOBJ.dll
+C:\GIT REP\ExemplosAulas\ExemplosAulasOBJ\ExemplosAulasOBJ\obj\Debug\net6.0\ExemplosAulasOBJ.pdb
+C:\GIT REP\ExemplosAulas\ExemplosAulasOBJ\ExemplosAulasOBJ\obj\Debug\net6.0\ExemplosAulasOBJ.genruntimeconfig.cache
+C:\GIT REP\ExemplosAulas\ExemplosAulasOBJ\ExemplosAulasOBJ\obj\Debug\net6.0\ref\ExemplosAulasOBJ.dll
