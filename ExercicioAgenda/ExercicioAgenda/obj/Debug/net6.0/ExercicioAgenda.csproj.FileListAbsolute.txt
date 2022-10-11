@@ -1,0 +1,15 @@
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioAgenda\ExercicioAgenda\bin\Debug\net6.0\ExercicioAgenda.exe
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioAgenda\ExercicioAgenda\bin\Debug\net6.0\ExercicioAgenda.deps.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioAgenda\ExercicioAgenda\bin\Debug\net6.0\ExercicioAgenda.runtimeconfig.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioAgenda\ExercicioAgenda\bin\Debug\net6.0\ExercicioAgenda.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioAgenda\ExercicioAgenda\bin\Debug\net6.0\ExercicioAgenda.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioAgenda\ExercicioAgenda\obj\Debug\net6.0\ExercicioAgenda.csproj.AssemblyReference.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioAgenda\ExercicioAgenda\obj\Debug\net6.0\ExercicioAgenda.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioAgenda\ExercicioAgenda\obj\Debug\net6.0\ExercicioAgenda.AssemblyInfoInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioAgenda\ExercicioAgenda\obj\Debug\net6.0\ExercicioAgenda.AssemblyInfo.cs
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioAgenda\ExercicioAgenda\obj\Debug\net6.0\ExercicioAgenda.csproj.CoreCompileInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioAgenda\ExercicioAgenda\obj\Debug\net6.0\ExercicioAgenda.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioAgenda\ExercicioAgenda\obj\Debug\net6.0\refint\ExercicioAgenda.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioAgenda\ExercicioAgenda\obj\Debug\net6.0\ExercicioAgenda.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioAgenda\ExercicioAgenda\obj\Debug\net6.0\ExercicioAgenda.genruntimeconfig.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioAgenda\ExercicioAgenda\obj\Debug\net6.0\ref\ExercicioAgenda.dll
