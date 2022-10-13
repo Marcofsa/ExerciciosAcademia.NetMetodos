@@ -10,8 +10,9 @@ namespace ExemploEletronico
     {
         public override void Ligar()
         {
-            Console.WriteLine("Estou ligando a TV.");
-            ligado = true;
+            Console.WriteLine("TV WebOS iniciando");
+            //_ligado = true;
+            Ligado = true;
         }
     }
 }

@@ -6,22 +6,38 @@ using System.Threading.Tasks;
 
 namespace ExemploEletronico
 {
-    internal class Eletronico
+    abstract class Eletronico
     {
-        public int volts;
-        public int potencia;
-        public string ligado;
+        //https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/get
+
+        private int _volts;
+        private int _potencia;
+        private bool _ligado;
+        protected bool testeprotect;
+        public bool testepublic;
+        /*public Eletronico()
+        {
+
+        }*/
+
+        public bool Ligado
+        {
+            get => _ligado;
+            set => _ligado = value;
+        }
 
         public abstract void Ligar();
+
         public void Desligar()
         {
-            ligado = false;
-            Console.WriteLine("Desligando o equipamento.");
+            _ligado = false;
+            Console.WriteLine("Desligando o equipamento");
         }
-        public void VerificaLigado()
-        {
-            return ligado;
-        }
+
+        /*    public bool VerificaLigado()
+            {
+                return _ligado;
+            }*/
 
     }
 

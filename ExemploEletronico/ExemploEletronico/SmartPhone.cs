@@ -10,8 +10,9 @@ namespace ExemploEletronico
     {
         public override void Ligar()
         {
-            Console.WriteLine("Estou ligando o SmartPhone.");
-            ligado = true;
+            Console.WriteLine("Android iniciando");
+            //_ligado = true;
+            this.Ligado = true;
         }
 
     }

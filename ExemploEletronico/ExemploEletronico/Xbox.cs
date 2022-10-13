@@ -11,8 +11,9 @@ namespace ExemploEletronico
     {
         public override void Ligar()
         {
-            Console.WriteLine("Estou ligando o Xbox.");
-            ligado = true;
+            Console.WriteLine("Estou ligando o Xbox!");
+            //_ligado = true;
+            this.Ligado = true;
         }
 
 
