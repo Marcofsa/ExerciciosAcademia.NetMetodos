@@ -4,9 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Personangem personagem1 = new Personangem();
-            Personangem personagem2 = new Personangem();
-            Personangem personagem3 = new Personangem();
+            string[] nomes = new string[10];
+
+            Personagem personagem1 = new Personagem();
+            Personagem personagem2 = new Personagem();
+            Personagem personagem3 = new Personagem();
             
         }
     }

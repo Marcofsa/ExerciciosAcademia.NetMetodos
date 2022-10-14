@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace ExercicioMaiorPoder
 {
-    internal class Personangem
+    internal class Personagem
     {
-        public string name;
-        public int power;
 
     }
 }
