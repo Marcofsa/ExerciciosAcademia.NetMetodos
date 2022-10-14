@@ -1,0 +1,15 @@
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioLivro\ExercicioLivro\bin\Debug\net6.0\ExercicioLivro.exe
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioLivro\ExercicioLivro\bin\Debug\net6.0\ExercicioLivro.deps.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioLivro\ExercicioLivro\bin\Debug\net6.0\ExercicioLivro.runtimeconfig.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioLivro\ExercicioLivro\bin\Debug\net6.0\ExercicioLivro.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioLivro\ExercicioLivro\bin\Debug\net6.0\ExercicioLivro.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioLivro\ExercicioLivro\obj\Debug\net6.0\ExercicioLivro.csproj.AssemblyReference.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioLivro\ExercicioLivro\obj\Debug\net6.0\ExercicioLivro.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioLivro\ExercicioLivro\obj\Debug\net6.0\ExercicioLivro.AssemblyInfoInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioLivro\ExercicioLivro\obj\Debug\net6.0\ExercicioLivro.AssemblyInfo.cs
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioLivro\ExercicioLivro\obj\Debug\net6.0\ExercicioLivro.csproj.CoreCompileInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioLivro\ExercicioLivro\obj\Debug\net6.0\ExercicioLivro.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioLivro\ExercicioLivro\obj\Debug\net6.0\refint\ExercicioLivro.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioLivro\ExercicioLivro\obj\Debug\net6.0\ExercicioLivro.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioLivro\ExercicioLivro\obj\Debug\net6.0\ExercicioLivro.genruntimeconfig.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioLivro\ExercicioLivro\obj\Debug\net6.0\ref\ExercicioLivro.dll
