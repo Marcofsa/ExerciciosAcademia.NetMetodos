@@ -1,0 +1,15 @@
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioPessoa\ExercicioPessoa\bin\Debug\net6.0\ExercicioPessoa.exe
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioPessoa\ExercicioPessoa\bin\Debug\net6.0\ExercicioPessoa.deps.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioPessoa\ExercicioPessoa\bin\Debug\net6.0\ExercicioPessoa.runtimeconfig.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioPessoa\ExercicioPessoa\bin\Debug\net6.0\ExercicioPessoa.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioPessoa\ExercicioPessoa\bin\Debug\net6.0\ExercicioPessoa.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioPessoa\ExercicioPessoa\obj\Debug\net6.0\ExercicioPessoa.csproj.AssemblyReference.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioPessoa\ExercicioPessoa\obj\Debug\net6.0\ExercicioPessoa.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioPessoa\ExercicioPessoa\obj\Debug\net6.0\ExercicioPessoa.AssemblyInfoInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioPessoa\ExercicioPessoa\obj\Debug\net6.0\ExercicioPessoa.AssemblyInfo.cs
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioPessoa\ExercicioPessoa\obj\Debug\net6.0\ExercicioPessoa.csproj.CoreCompileInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioPessoa\ExercicioPessoa\obj\Debug\net6.0\ExercicioPessoa.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioPessoa\ExercicioPessoa\obj\Debug\net6.0\refint\ExercicioPessoa.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioPessoa\ExercicioPessoa\obj\Debug\net6.0\ExercicioPessoa.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioPessoa\ExercicioPessoa\obj\Debug\net6.0\ExercicioPessoa.genruntimeconfig.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioPessoa\ExercicioPessoa\obj\Debug\net6.0\ref\ExercicioPessoa.dll

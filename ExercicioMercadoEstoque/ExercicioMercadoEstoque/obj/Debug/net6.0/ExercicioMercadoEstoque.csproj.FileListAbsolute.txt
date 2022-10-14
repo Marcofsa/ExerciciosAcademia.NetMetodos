@@ -1,0 +1,15 @@
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioMercadoEstoque\ExercicioMercadoEstoque\bin\Debug\net6.0\ExercicioMercadoEstoque.exe
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioMercadoEstoque\ExercicioMercadoEstoque\bin\Debug\net6.0\ExercicioMercadoEstoque.deps.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioMercadoEstoque\ExercicioMercadoEstoque\bin\Debug\net6.0\ExercicioMercadoEstoque.runtimeconfig.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioMercadoEstoque\ExercicioMercadoEstoque\bin\Debug\net6.0\ExercicioMercadoEstoque.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioMercadoEstoque\ExercicioMercadoEstoque\bin\Debug\net6.0\ExercicioMercadoEstoque.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioMercadoEstoque\ExercicioMercadoEstoque\obj\Debug\net6.0\ExercicioMercadoEstoque.csproj.AssemblyReference.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioMercadoEstoque\ExercicioMercadoEstoque\obj\Debug\net6.0\ExercicioMercadoEstoque.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioMercadoEstoque\ExercicioMercadoEstoque\obj\Debug\net6.0\ExercicioMercadoEstoque.AssemblyInfoInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioMercadoEstoque\ExercicioMercadoEstoque\obj\Debug\net6.0\ExercicioMercadoEstoque.AssemblyInfo.cs
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioMercadoEstoque\ExercicioMercadoEstoque\obj\Debug\net6.0\ExercicioMercadoEstoque.csproj.CoreCompileInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioMercadoEstoque\ExercicioMercadoEstoque\obj\Debug\net6.0\ExercicioMercadoEstoque.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioMercadoEstoque\ExercicioMercadoEstoque\obj\Debug\net6.0\refint\ExercicioMercadoEstoque.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioMercadoEstoque\ExercicioMercadoEstoque\obj\Debug\net6.0\ExercicioMercadoEstoque.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioMercadoEstoque\ExercicioMercadoEstoque\obj\Debug\net6.0\ExercicioMercadoEstoque.genruntimeconfig.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioMercadoEstoque\ExercicioMercadoEstoque\obj\Debug\net6.0\ref\ExercicioMercadoEstoque.dll
