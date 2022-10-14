@@ -1,0 +1,15 @@
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDict2\ExemploDict2\bin\Debug\net6.0\ExemploDict2.exe
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDict2\ExemploDict2\bin\Debug\net6.0\ExemploDict2.deps.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDict2\ExemploDict2\bin\Debug\net6.0\ExemploDict2.runtimeconfig.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDict2\ExemploDict2\bin\Debug\net6.0\ExemploDict2.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDict2\ExemploDict2\bin\Debug\net6.0\ExemploDict2.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDict2\ExemploDict2\obj\Debug\net6.0\ExemploDict2.csproj.AssemblyReference.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDict2\ExemploDict2\obj\Debug\net6.0\ExemploDict2.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDict2\ExemploDict2\obj\Debug\net6.0\ExemploDict2.AssemblyInfoInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDict2\ExemploDict2\obj\Debug\net6.0\ExemploDict2.AssemblyInfo.cs
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDict2\ExemploDict2\obj\Debug\net6.0\ExemploDict2.csproj.CoreCompileInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDict2\ExemploDict2\obj\Debug\net6.0\ExemploDict2.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDict2\ExemploDict2\obj\Debug\net6.0\refint\ExemploDict2.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDict2\ExemploDict2\obj\Debug\net6.0\ExemploDict2.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDict2\ExemploDict2\obj\Debug\net6.0\ExemploDict2.genruntimeconfig.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDict2\ExemploDict2\obj\Debug\net6.0\ref\ExemploDict2.dll

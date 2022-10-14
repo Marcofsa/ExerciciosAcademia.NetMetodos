@@ -1,0 +1,15 @@
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDictionary\ExemploDictionary\bin\Debug\net6.0\ExemploDictionary.exe
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDictionary\ExemploDictionary\bin\Debug\net6.0\ExemploDictionary.deps.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDictionary\ExemploDictionary\bin\Debug\net6.0\ExemploDictionary.runtimeconfig.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDictionary\ExemploDictionary\bin\Debug\net6.0\ExemploDictionary.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDictionary\ExemploDictionary\bin\Debug\net6.0\ExemploDictionary.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDictionary\ExemploDictionary\obj\Debug\net6.0\ExemploDictionary.csproj.AssemblyReference.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDictionary\ExemploDictionary\obj\Debug\net6.0\ExemploDictionary.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDictionary\ExemploDictionary\obj\Debug\net6.0\ExemploDictionary.AssemblyInfoInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDictionary\ExemploDictionary\obj\Debug\net6.0\ExemploDictionary.AssemblyInfo.cs
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDictionary\ExemploDictionary\obj\Debug\net6.0\ExemploDictionary.csproj.CoreCompileInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDictionary\ExemploDictionary\obj\Debug\net6.0\ExemploDictionary.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDictionary\ExemploDictionary\obj\Debug\net6.0\refint\ExemploDictionary.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDictionary\ExemploDictionary\obj\Debug\net6.0\ExemploDictionary.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDictionary\ExemploDictionary\obj\Debug\net6.0\ExemploDictionary.genruntimeconfig.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\EXEMPLOS DAS AULAS\ExemploDictionary\ExemploDictionary\obj\Debug\net6.0\ref\ExemploDictionary.dll
