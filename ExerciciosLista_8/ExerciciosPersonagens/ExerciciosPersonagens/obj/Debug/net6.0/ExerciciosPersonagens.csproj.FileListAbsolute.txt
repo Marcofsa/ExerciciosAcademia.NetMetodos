@@ -1,0 +1,15 @@
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosPersonagens\ExerciciosPersonagens\bin\Debug\net6.0\ExerciciosPersonagens.exe
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosPersonagens\ExerciciosPersonagens\bin\Debug\net6.0\ExerciciosPersonagens.deps.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosPersonagens\ExerciciosPersonagens\bin\Debug\net6.0\ExerciciosPersonagens.runtimeconfig.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosPersonagens\ExerciciosPersonagens\bin\Debug\net6.0\ExerciciosPersonagens.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosPersonagens\ExerciciosPersonagens\bin\Debug\net6.0\ExerciciosPersonagens.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosPersonagens\ExerciciosPersonagens\obj\Debug\net6.0\ExerciciosPersonagens.csproj.AssemblyReference.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosPersonagens\ExerciciosPersonagens\obj\Debug\net6.0\ExerciciosPersonagens.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosPersonagens\ExerciciosPersonagens\obj\Debug\net6.0\ExerciciosPersonagens.AssemblyInfoInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosPersonagens\ExerciciosPersonagens\obj\Debug\net6.0\ExerciciosPersonagens.AssemblyInfo.cs
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosPersonagens\ExerciciosPersonagens\obj\Debug\net6.0\ExerciciosPersonagens.csproj.CoreCompileInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosPersonagens\ExerciciosPersonagens\obj\Debug\net6.0\ExerciciosPersonagens.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosPersonagens\ExerciciosPersonagens\obj\Debug\net6.0\refint\ExerciciosPersonagens.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosPersonagens\ExerciciosPersonagens\obj\Debug\net6.0\ExerciciosPersonagens.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosPersonagens\ExerciciosPersonagens\obj\Debug\net6.0\ExerciciosPersonagens.genruntimeconfig.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosPersonagens\ExerciciosPersonagens\obj\Debug\net6.0\ref\ExerciciosPersonagens.dll
