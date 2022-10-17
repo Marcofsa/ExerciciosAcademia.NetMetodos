@@ -1,0 +1,15 @@
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCenario\ExercicioCenario\bin\Debug\net6.0\ExercicioCenario.exe
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCenario\ExercicioCenario\bin\Debug\net6.0\ExercicioCenario.deps.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCenario\ExercicioCenario\bin\Debug\net6.0\ExercicioCenario.runtimeconfig.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCenario\ExercicioCenario\bin\Debug\net6.0\ExercicioCenario.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCenario\ExercicioCenario\bin\Debug\net6.0\ExercicioCenario.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCenario\ExercicioCenario\obj\Debug\net6.0\ExercicioCenario.csproj.AssemblyReference.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCenario\ExercicioCenario\obj\Debug\net6.0\ExercicioCenario.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCenario\ExercicioCenario\obj\Debug\net6.0\ExercicioCenario.AssemblyInfoInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCenario\ExercicioCenario\obj\Debug\net6.0\ExercicioCenario.AssemblyInfo.cs
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCenario\ExercicioCenario\obj\Debug\net6.0\ExercicioCenario.csproj.CoreCompileInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCenario\ExercicioCenario\obj\Debug\net6.0\ExercicioCenario.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCenario\ExercicioCenario\obj\Debug\net6.0\refint\ExercicioCenario.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCenario\ExercicioCenario\obj\Debug\net6.0\ExercicioCenario.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCenario\ExercicioCenario\obj\Debug\net6.0\ExercicioCenario.genruntimeconfig.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCenario\ExercicioCenario\obj\Debug\net6.0\ref\ExercicioCenario.dll

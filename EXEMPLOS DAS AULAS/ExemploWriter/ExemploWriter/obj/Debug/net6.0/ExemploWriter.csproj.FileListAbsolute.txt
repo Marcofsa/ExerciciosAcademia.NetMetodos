@@ -1,0 +1,15 @@
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExemploWriter\ExemploWriter\bin\Debug\net6.0\ExemploWriter.exe
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExemploWriter\ExemploWriter\bin\Debug\net6.0\ExemploWriter.deps.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExemploWriter\ExemploWriter\bin\Debug\net6.0\ExemploWriter.runtimeconfig.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExemploWriter\ExemploWriter\bin\Debug\net6.0\ExemploWriter.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExemploWriter\ExemploWriter\bin\Debug\net6.0\ExemploWriter.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExemploWriter\ExemploWriter\obj\Debug\net6.0\ExemploWriter.csproj.AssemblyReference.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExemploWriter\ExemploWriter\obj\Debug\net6.0\ExemploWriter.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExemploWriter\ExemploWriter\obj\Debug\net6.0\ExemploWriter.AssemblyInfoInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExemploWriter\ExemploWriter\obj\Debug\net6.0\ExemploWriter.AssemblyInfo.cs
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExemploWriter\ExemploWriter\obj\Debug\net6.0\ExemploWriter.csproj.CoreCompileInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExemploWriter\ExemploWriter\obj\Debug\net6.0\ExemploWriter.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExemploWriter\ExemploWriter\obj\Debug\net6.0\refint\ExemploWriter.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExemploWriter\ExemploWriter\obj\Debug\net6.0\ExemploWriter.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExemploWriter\ExemploWriter\obj\Debug\net6.0\ExemploWriter.genruntimeconfig.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExemploWriter\ExemploWriter\obj\Debug\net6.0\ref\ExemploWriter.dll
