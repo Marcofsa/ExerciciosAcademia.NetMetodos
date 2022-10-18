@@ -36,7 +36,7 @@ namespace ExercicioAsteroids
 
         public void CadastraAsteroide(float posX, float posY, int tamanho)
         {
-            //Asteroides(posX, posY, tamanho);
+           
         }
         public void getAsteroides()
         {

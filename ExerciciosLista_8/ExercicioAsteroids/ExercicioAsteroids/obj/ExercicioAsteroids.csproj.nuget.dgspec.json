@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExercicioAsteroids\\ExercicioAsteroids\\ExercicioAsteroids.csproj": {}
+    "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExerciciosLista_8\\ExercicioAsteroids\\ExercicioAsteroids\\ExercicioAsteroids.csproj": {}
   },
   "projects": {
-    "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExercicioAsteroids\\ExercicioAsteroids\\ExercicioAsteroids.csproj": {
+    "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExerciciosLista_8\\ExercicioAsteroids\\ExercicioAsteroids\\ExercicioAsteroids.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExercicioAsteroids\\ExercicioAsteroids\\ExercicioAsteroids.csproj",
+        "projectUniqueName": "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExerciciosLista_8\\ExercicioAsteroids\\ExercicioAsteroids\\ExercicioAsteroids.csproj",
         "projectName": "ExercicioAsteroids",
-        "projectPath": "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExercicioAsteroids\\ExercicioAsteroids\\ExercicioAsteroids.csproj",
+        "projectPath": "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExerciciosLista_8\\ExercicioAsteroids\\ExercicioAsteroids\\ExercicioAsteroids.csproj",
         "packagesPath": "C:\\Users\\garen\\.nuget\\packages\\",
-        "outputPath": "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExercicioAsteroids\\ExercicioAsteroids\\obj\\",
+        "outputPath": "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExerciciosLista_8\\ExercicioAsteroids\\ExercicioAsteroids\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

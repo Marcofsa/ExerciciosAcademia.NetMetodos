@@ -4,28 +4,31 @@
     {
         static void Main(string[] args)
         {
-            Asteroides ast = new Asteroides();
-            List<Asteroides> ast2 = new List<Asteroides>();
-            int option = 0;
-
-            do
+            List<Asteroides> lista_asteroide = new List<Asteroides>();
+            Random random = new Random();
+        
+            for (int i = 0; i < 50; i++)
             {
-                Console.WriteLine(">>>>>>>> Jogo dos Asteroides <<<<<<<<\n");
-                Console.WriteLine("1 - Registrar um novo asteróide");
-                Console.WriteLine("2 - Exibir todos os asteróides");
-                Console.WriteLine("3 - Encerrar");
-                Console.Write("\nOpção: ");
-                option = int.Parse(Console.ReadLine());
+                Asteroides asteroide = new Asteroides();
+                asteroide.posX = random.Next(0, 100);
+                asteroide.posY = random.Next(0, 100);
+                asteroide.tamanho = random.Next(1, 10);
+                asteroide.velocidade = random.Next(1, 5);
+                asteroide.energia = random.Next(1, 5);
+                lista_asteroide.Add(asteroide);
+            }
 
-                switch (option)
-                {
-                    case 1:
 
-                }
-            } while (option != 3);
 
-            Console.Clear();
-            ast.getAsteroides();
+
+            foreach (Asteroides i in lista_asteroide)
+            {
+                Console.WriteLine("Asteroide");
+                Console.WriteLine(i.posX + " " + i.posY + " " + i.tamanho + " " + i.velocidade + " " + i.energia);
+
+
+
+            }
 
         }
     }
