@@ -10,11 +10,11 @@
             for (int i = 0; i < 50; i++)
             {
                 Asteroides asteroide = new Asteroides();
-                asteroide.posX = random.Next(0, 100);
-                asteroide.posY = random.Next(0, 100);
-                asteroide.tamanho = random.Next(1, 10);
-                asteroide.velocidade = random.Next(1, 5);
-                asteroide.energia = random.Next(1, 5);
+                asteroide.Posicao_x = random.Next(0, 100);
+                asteroide.Posicao_y = random.Next(0, 100);
+                asteroide.Tamanho = random.Next(1, 10);
+                asteroide.Velocidade = random.Next(1, 5);
+                asteroide.Energia = random.Next(1, 5);
                 lista_asteroide.Add(asteroide);
             }
 
@@ -24,7 +24,7 @@
             foreach (Asteroides i in lista_asteroide)
             {
                 Console.WriteLine("Asteroide");
-                Console.WriteLine(i.posX + " " + i.posY + " " + i.tamanho + " " + i.velocidade + " " + i.energia);
+                Console.WriteLine(i.Posicao_x + " " + i.Posicao_y + " " + i.Tamanho + " " + i.Velocidade + " " + i.Energia);
 
 
 

@@ -8,42 +8,43 @@ namespace ExercicioAsteroids
 {
     internal class Asteroides
     {
-        private float _posX { get; set; }
-        private float _posY { get; set; }
-        private int _tamanho { get; set; }
-        private int _velocidade { get; set; }
-        private int _energia { get; set; }
-
-        List<Asteroides> asteroide = new List<Asteroides>();
-        public Asteroides() { }
-
-        public Asteroides(float posX, float posY, int tamanho, int velocidade, int energia)
+        internal class Asteroide
         {
-            _posX = posX;
-            _posY = posY;
-            _tamanho = tamanho;
-            _velocidade = velocidade;
-            _energia = energia;
+            private int posicao_x;
+            private int posicao_y;
+            private int tamanho;//1 a 10
+            private int velocidade; //1 a 5
+            private int energia; //1 a 5
 
-            Console.WriteLine("Asteroide cadastrado!");
-        }
 
-        public Asteroides(float posX, float posY)
-        {
-            _posX = posX;
-            _posY = posY;
-        }
 
-        public void CadastraAsteroide(float posX, float posY, int tamanho)
-        {
-           
-        }
-        public void getAsteroides()
-        {
-            foreach (Asteroides a in asteroide)
+            public int Posicao_x { get; set; }
+            public int Posicao_y { get; set; }
+            public int Tamanho { get; set; }
+            public int Velocidade { get; set; }
+            public int Energia { get; set; }
+
+            //CONSTRUTORES
+            public Asteroide()
             {
-                Console.WriteLine("X: {0}   Y: {1}   Tamanho: {2}   Velocidade: {3} Mph   Energia: {4}", a._posX, a._posY, a._tamanho, a._velocidade);
+
+
+
+            }
+            public Asteroide(int posicao_x, int posicao_y, int tamanho, int velocidade, int energia)
+            {
+                this.Posicao_x = posicao_x;
+                this.Posicao_y = posicao_y;
+                this.Tamanho = tamanho;
+                this.Velocidade = velocidade;
+                this.Energia = energia;
+            }
+            public Asteroide(int posicao_x, int posicao_y)
+            {
+                this.Posicao_x = posicao_x;
+                this.Posicao_y = posicao_y;
             }
         }
+    }
     }
 }
