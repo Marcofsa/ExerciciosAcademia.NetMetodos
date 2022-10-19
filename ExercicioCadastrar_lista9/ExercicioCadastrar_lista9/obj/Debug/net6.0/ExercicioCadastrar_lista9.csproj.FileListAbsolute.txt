@@ -1,0 +1,15 @@
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCadastrar_lista9\ExercicioCadastrar_lista9\bin\Debug\net6.0\ExercicioCadastrar_lista9.exe
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCadastrar_lista9\ExercicioCadastrar_lista9\bin\Debug\net6.0\ExercicioCadastrar_lista9.deps.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCadastrar_lista9\ExercicioCadastrar_lista9\bin\Debug\net6.0\ExercicioCadastrar_lista9.runtimeconfig.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCadastrar_lista9\ExercicioCadastrar_lista9\bin\Debug\net6.0\ExercicioCadastrar_lista9.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCadastrar_lista9\ExercicioCadastrar_lista9\bin\Debug\net6.0\ExercicioCadastrar_lista9.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCadastrar_lista9\ExercicioCadastrar_lista9\obj\Debug\net6.0\ExercicioCadastrar_lista9.csproj.AssemblyReference.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCadastrar_lista9\ExercicioCadastrar_lista9\obj\Debug\net6.0\ExercicioCadastrar_lista9.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCadastrar_lista9\ExercicioCadastrar_lista9\obj\Debug\net6.0\ExercicioCadastrar_lista9.AssemblyInfoInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCadastrar_lista9\ExercicioCadastrar_lista9\obj\Debug\net6.0\ExercicioCadastrar_lista9.AssemblyInfo.cs
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCadastrar_lista9\ExercicioCadastrar_lista9\obj\Debug\net6.0\ExercicioCadastrar_lista9.csproj.CoreCompileInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCadastrar_lista9\ExercicioCadastrar_lista9\obj\Debug\net6.0\ExercicioCadastrar_lista9.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCadastrar_lista9\ExercicioCadastrar_lista9\obj\Debug\net6.0\refint\ExercicioCadastrar_lista9.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCadastrar_lista9\ExercicioCadastrar_lista9\obj\Debug\net6.0\ExercicioCadastrar_lista9.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCadastrar_lista9\ExercicioCadastrar_lista9\obj\Debug\net6.0\ExercicioCadastrar_lista9.genruntimeconfig.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExercicioCadastrar_lista9\ExercicioCadastrar_lista9\obj\Debug\net6.0\ref\ExercicioCadastrar_lista9.dll

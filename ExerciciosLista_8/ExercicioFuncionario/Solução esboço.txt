@@ -1,0 +1,93 @@
+ List<Funcionario> listaFuncionario = new List<Funcionario>();
+            Funcionario f = new Gerente(), funcionarioBusca = new Gerente();
+            string nome, depto, rg, nomeBusca="";
+            int op;
+            double salario, aumento;
+            DateTime dataCriacao = DateTime.Today;
+            string data = dataCriacao.ToShortDateString();
+            while (true)
+            {
+                Console.WriteLine("Digite 1 para cadastrar, 2 aumentar salário, 3 para demitir" +                    " 4 para mostrar os dados e 5 para sair.");
+                op = int.Parse(Console.ReadLine());
+                switch (op)
+                {
+                    case 1:
+                        Console.WriteLine("Qual cargo do funcionário? 1 = Gerente, 2 = Operador");
+                        int cargo = int.Parse(Console.ReadLine());
+                        Console.WriteLine("Digite o nome do funcionário");
+                        nome = Console.ReadLine();
+                        Console.WriteLine("Digite o departamento do funcionário");
+                        depto = Console.ReadLine();
+                        Console.WriteLine("Digite o RG do funcionário");
+                        rg = Console.ReadLine();
+                        Console.WriteLine("Digite o salário do funcionário");
+                        salario = float.Parse(Console.ReadLine());
+                        if (cargo == 1)
+                        {
+                            f = new Gerente(nome, depto, data, rg, salario, true);
+                        }
+                        else if (cargo == 2)
+                        {
+                            f = new Operador(nome, depto, data, rg, salario, true);
+                        }
+                        listaFuncionario.Add(f);
+                        break;
+                    case 2:
+                        Console.WriteLine("Digite o nome do funcionário que deseja aumentar o salário:");
+                        nomeBusca = Console.ReadLine();
+                        funcionarioBusca = listaFuncionario.Find(delegate (Funcionario f) { return f.Nome == nomeBusca; });
+                        if(funcionarioBusca == null)
+                        {
+                            Console.WriteLine("Funcionário não encontrado");
+                            break;
+                        }
+                        Console.WriteLine("Em quanto deseja aumentar o salário? ");
+                        aumento = int.Parse(Console.ReadLine());
+                        funcionarioBusca.Bonifica(aumento);
+                        break;
+                    case 3:
+                        Console.WriteLine("Digite o nome do funcionário que deseja demitir:");
+                        nomeBusca = Console.ReadLine();
+                        funcionarioBusca = listaFuncionario.Find(delegate (Funcionario f) { return f.Nome == nomeBusca; });
+                        if (funcionarioBusca == null)
+                        {
+                            Console.WriteLine("Funcionário não encontrado");
+                            break;
+                        }
+                        funcionarioBusca.Demite();
+                        break;
+                    case 4:
+                        Console.WriteLine("------------");
+                        foreach(Funcionario funcio in listaFuncionario)
+                        {
+                            funcio.MostraDados();
+                            funcio.ExecutaTrabalho();
+                            Console.WriteLine("------------");
+                        }
+                        break;
+                    case 5:
+                        return;
+                    default:
+                        Console.WriteLine("Opção inválida, tente novamente:");
+                        break;
+                }
+            }
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+namespace ListaExercicios8Atos{
+    class Gerente : Funcionario    {
+        public Gerente() { }
+        public Gerente(string nome, string depto, string dataCriacao, string rg, double salario, bool ativo) : base(nome, depto, dataCriacao, rg, salario, ativo) { }
+        public override void ExecutaTrabalho()
+        {
+            Console.WriteLine("Desempenha a função de Gerente.");
+        }
+    }
+}
