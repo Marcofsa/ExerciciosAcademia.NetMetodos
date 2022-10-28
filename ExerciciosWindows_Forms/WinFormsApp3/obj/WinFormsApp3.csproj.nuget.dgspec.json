@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexz\\academiaDotNet_3\\anotacoesAlexandre\\WindowsForm\\WinFormsApp3\\WinFormsApp3.csproj": {}
+    "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExerciciosWindows_Forms\\WinFormsApp3\\WinFormsApp3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexz\\academiaDotNet_3\\anotacoesAlexandre\\WindowsForm\\WinFormsApp3\\WinFormsApp3.csproj": {
+    "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExerciciosWindows_Forms\\WinFormsApp3\\WinFormsApp3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexz\\academiaDotNet_3\\anotacoesAlexandre\\WindowsForm\\WinFormsApp3\\WinFormsApp3.csproj",
+        "projectUniqueName": "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExerciciosWindows_Forms\\WinFormsApp3\\WinFormsApp3.csproj",
         "projectName": "WinFormsApp3",
-        "projectPath": "C:\\Users\\alexz\\academiaDotNet_3\\anotacoesAlexandre\\WindowsForm\\WinFormsApp3\\WinFormsApp3.csproj",
-        "packagesPath": "C:\\Users\\alexz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexz\\academiaDotNet_3\\anotacoesAlexandre\\WindowsForm\\WinFormsApp3\\obj\\",
+        "projectPath": "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExerciciosWindows_Forms\\WinFormsApp3\\WinFormsApp3.csproj",
+        "packagesPath": "C:\\Users\\garen\\.nuget\\packages\\",
+        "outputPath": "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExerciciosWindows_Forms\\WinFormsApp3\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\alexz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\garen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
