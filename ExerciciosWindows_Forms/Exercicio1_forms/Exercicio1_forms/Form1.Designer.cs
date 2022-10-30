@@ -69,6 +69,7 @@
             this.adicionaListaNomes.TabIndex = 3;
             this.adicionaListaNomes.Text = "Adicionar";
             this.adicionaListaNomes.UseVisualStyleBackColor = true;
+            this.adicionaListaNomes.Click += new System.EventHandler(this.btnClick);
             // 
             // frmExercicio1
             // 
