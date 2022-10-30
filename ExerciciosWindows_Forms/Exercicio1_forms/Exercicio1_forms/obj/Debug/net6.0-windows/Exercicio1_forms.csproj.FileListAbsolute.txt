@@ -1,0 +1,7 @@
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio1_forms\Exercicio1_forms\obj\Debug\net6.0-windows\Exercicio1_forms.csproj.AssemblyReference.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio1_forms\Exercicio1_forms\obj\Debug\net6.0-windows\Exercicio1_forms.frmExercicio1.resources
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio1_forms\Exercicio1_forms\obj\Debug\net6.0-windows\Exercicio1_forms.csproj.GenerateResource.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio1_forms\Exercicio1_forms\obj\Debug\net6.0-windows\Exercicio1_forms.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio1_forms\Exercicio1_forms\obj\Debug\net6.0-windows\Exercicio1_forms.AssemblyInfoInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio1_forms\Exercicio1_forms\obj\Debug\net6.0-windows\Exercicio1_forms.AssemblyInfo.cs
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio1_forms\Exercicio1_forms\obj\Debug\net6.0-windows\Exercicio1_forms.csproj.CoreCompileInputs.cache
