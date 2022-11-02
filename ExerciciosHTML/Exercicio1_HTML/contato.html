@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>CONTATO - LOJA DE ELETRONICOS</title>
+    <h1>CONTATO COM NOSSOS VENDEDORES</h1>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="logo.png" alt="Logo loja de eletronicos"></h1>
+            <nav>
+                <ul classe="navegação">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="produto.html">PRODUTO</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <form>
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Ex: João Cabecinha de Pilão">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX)XXXXX-XXXX">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="75" rows="10" id="mensagem" class="input-padrao" required></textarea>
+            <fieldset>
+                <p class="teste" id="teste">COMO PREFERE QUE O VENDEDOR ENTRE EM CONTATO?</p>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                <label for="radio-whatsapp" Checked><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" Checked>Whatsapp</label>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <img src="logo.png">
+        <p class="copyright">&copy; COPYRIGHT LOJA DE ELETRONICOS - 2022</p>
+    
+    </footer>
+    </body>
+    
+    </html>

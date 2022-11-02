@@ -5,3 +5,13 @@ C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exerci
 C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio1_forms\Exercicio1_forms\obj\Debug\net6.0-windows\Exercicio1_forms.AssemblyInfoInputs.cache
 C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio1_forms\Exercicio1_forms\obj\Debug\net6.0-windows\Exercicio1_forms.AssemblyInfo.cs
 C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio1_forms\Exercicio1_forms\obj\Debug\net6.0-windows\Exercicio1_forms.csproj.CoreCompileInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio1_forms\Exercicio1_forms\bin\Debug\net6.0-windows\Exercicio1_forms.exe
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio1_forms\Exercicio1_forms\bin\Debug\net6.0-windows\Exercicio1_forms.deps.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio1_forms\Exercicio1_forms\bin\Debug\net6.0-windows\Exercicio1_forms.runtimeconfig.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio1_forms\Exercicio1_forms\bin\Debug\net6.0-windows\Exercicio1_forms.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio1_forms\Exercicio1_forms\bin\Debug\net6.0-windows\Exercicio1_forms.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio1_forms\Exercicio1_forms\obj\Debug\net6.0-windows\Exercicio1_forms.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio1_forms\Exercicio1_forms\obj\Debug\net6.0-windows\refint\Exercicio1_forms.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio1_forms\Exercicio1_forms\obj\Debug\net6.0-windows\Exercicio1_forms.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio1_forms\Exercicio1_forms\obj\Debug\net6.0-windows\Exercicio1_forms.genruntimeconfig.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio1_forms\Exercicio1_forms\obj\Debug\net6.0-windows\ref\Exercicio1_forms.dll

@@ -13,12 +13,13 @@ namespace Exercicio1_forms
 
         }
 
-        private void btnClick(object sender, EventArgs e)
+        private void btnAdicionaNome(object sender, EventArgs e)
         {
-            if(MessageBox.Show("Deseja adicionar o nome a lista?", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (MessageBox.Show("Adicionar nome?", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult)
             {
-
+                          
             }
+           
         }
     }
 }
