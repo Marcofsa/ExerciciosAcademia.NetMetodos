@@ -1,0 +1,17 @@
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio_Jogador\Exercicio_Jogador\bin\Debug\net6.0-windows\Exercicio_Jogador.exe
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio_Jogador\Exercicio_Jogador\bin\Debug\net6.0-windows\Exercicio_Jogador.deps.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio_Jogador\Exercicio_Jogador\bin\Debug\net6.0-windows\Exercicio_Jogador.runtimeconfig.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio_Jogador\Exercicio_Jogador\bin\Debug\net6.0-windows\Exercicio_Jogador.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio_Jogador\Exercicio_Jogador\bin\Debug\net6.0-windows\Exercicio_Jogador.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio_Jogador\Exercicio_Jogador\obj\Debug\net6.0-windows\Exercicio_Jogador.csproj.AssemblyReference.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio_Jogador\Exercicio_Jogador\obj\Debug\net6.0-windows\Exercicio_Jogador.Form1.resources
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio_Jogador\Exercicio_Jogador\obj\Debug\net6.0-windows\Exercicio_Jogador.csproj.GenerateResource.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio_Jogador\Exercicio_Jogador\obj\Debug\net6.0-windows\Exercicio_Jogador.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio_Jogador\Exercicio_Jogador\obj\Debug\net6.0-windows\Exercicio_Jogador.AssemblyInfoInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio_Jogador\Exercicio_Jogador\obj\Debug\net6.0-windows\Exercicio_Jogador.AssemblyInfo.cs
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio_Jogador\Exercicio_Jogador\obj\Debug\net6.0-windows\Exercicio_Jogador.csproj.CoreCompileInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio_Jogador\Exercicio_Jogador\obj\Debug\net6.0-windows\Exercicio_Jogador.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio_Jogador\Exercicio_Jogador\obj\Debug\net6.0-windows\refint\Exercicio_Jogador.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio_Jogador\Exercicio_Jogador\obj\Debug\net6.0-windows\Exercicio_Jogador.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio_Jogador\Exercicio_Jogador\obj\Debug\net6.0-windows\Exercicio_Jogador.genruntimeconfig.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\Exercicio_Jogador\Exercicio_Jogador\obj\Debug\net6.0-windows\ref\Exercicio_Jogador.dll
