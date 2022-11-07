@@ -10,7 +10,7 @@ namespace Exercicio_Jogador
     {
         string nome;
         string email;
-
+       
         public Jogador(string nome, string email)
         {
             this.nome = nome;

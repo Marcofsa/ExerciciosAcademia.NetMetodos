@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GIT New ACADEMIA\\ExercicioFamilia\\ExercicioFamilia\\ExercicioFamilia.csproj": {}
+    "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExercicioMetodosLista_7\\ExercicioFamilia\\ExercicioFamilia\\ExercicioFamilia.csproj": {}
   },
   "projects": {
-    "C:\\GIT New ACADEMIA\\ExercicioFamilia\\ExercicioFamilia\\ExercicioFamilia.csproj": {
+    "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExercicioMetodosLista_7\\ExercicioFamilia\\ExercicioFamilia\\ExercicioFamilia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GIT New ACADEMIA\\ExercicioFamilia\\ExercicioFamilia\\ExercicioFamilia.csproj",
+        "projectUniqueName": "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExercicioMetodosLista_7\\ExercicioFamilia\\ExercicioFamilia\\ExercicioFamilia.csproj",
         "projectName": "ExercicioFamilia",
-        "projectPath": "C:\\GIT New ACADEMIA\\ExercicioFamilia\\ExercicioFamilia\\ExercicioFamilia.csproj",
+        "projectPath": "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExercicioMetodosLista_7\\ExercicioFamilia\\ExercicioFamilia\\ExercicioFamilia.csproj",
         "packagesPath": "C:\\Users\\garen\\.nuget\\packages\\",
-        "outputPath": "C:\\GIT New ACADEMIA\\ExercicioFamilia\\ExercicioFamilia\\obj\\",
+        "outputPath": "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExercicioMetodosLista_7\\ExercicioFamilia\\ExercicioFamilia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

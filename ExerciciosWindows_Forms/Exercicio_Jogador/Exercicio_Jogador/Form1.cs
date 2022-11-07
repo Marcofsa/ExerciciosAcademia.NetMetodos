@@ -9,7 +9,7 @@ namespace Exercicio_Jogador
             string linha;
             string[] vetorDados;
             InitializeComponent();
-            StreamReader leitor = new StreamReader("jogadores.dat");
+            StreamReader leitor = new StreamReader("jogadores.txt");
             do
             {
                 linha = leitor.ReadLine();
@@ -47,7 +47,7 @@ namespace Exercicio_Jogador
             }
             textBox_nomesJogadores.Text = "";
 
-            StreamWriter escritor = new StreamWriter("jogadores.dat", true);
+            StreamWriter escritor = new StreamWriter("jogadores.txt", true);
             escritor.WriteLine(textBox_nomesJogadores + ";" + email);
             escritor.Close();
         }

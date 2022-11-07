@@ -8,17 +8,17 @@
             
             pessoaFilho.idade = 12;
             
-            pessoaFilho.nome = "Diego";
+            pessoaFilho.nome = "Joaquim";
             
             Pessoa pessoaMae = new Pessoa();
             
-            pessoaMae.nome = "Erika";
+            pessoaMae.nome = "Marcia";
             
             pessoaMae.idade = 35;
             
             Pessoa pessoaPai = new Pessoa();
             
-            pessoaPai.nome = "Sergio";
+            pessoaPai.nome = "Deca";
             
             pessoaPai.idade = 31;
             
