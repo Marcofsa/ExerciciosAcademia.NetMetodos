@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATIVIDADE 10 LISTA 13</title>
+    <link rel="stylesheet" href="asset/css/exercicios.css" />
+</head>
+
+<body>
+    <form id="frmEx10">
+        <label for="login">NOME:</label>
+        <input type="text" name="nome" id="nome">
+        <br>
+        <br>
+        <label for="senha">TIPAGEM:</label>
+        <input type="radio" name="TipoPessoa" id="pf" value="pf" onclick="tipoPessoa(this.id)">CPF <b>ou</b>
+        <input type="radio" name="TipoPessoa" id="pj" value="pj" onclick="tipoPessoa(this.id)">CNPJ
+        <br>
+        <br>
+        <label for="cpf">CPF:</label>
+        <input type="text" name="cpf" id="cpf">
+        <br>
+        <br>
+        <label for="cnpj">CNPJ:</label>
+        <input type="text" name="cnpj" id="cnpj">
+        <br>
+        <br>
+        <label for="dataNascimento">NASCIMENTO:</label>
+        <input type="date" name="dataNascimento" id="dataNascimento">
+        <br>
+        <br>
+        <label for="endereco">ENDEREÇO:</label>
+        <input type="text" name="endereco" id="endereco">
+        <br>
+        <br>
+        <label for="cep">CEP:</label>
+        <input type="number" name="cep" id="cep" maxlength="8">
+        <br>
+        <br>
+        <label for="telefone">FONE:</label>
+        <input type="text" name="telefone" id="telefone">
+        <br>
+        <br>
+        <label for="email">E-MAIL:</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <br>
+        <button type="submit" id="enviar">ENVIO DE DADOS</button>
+    </form>
+    <script src="asset/js/exercicios.js"></script>
+</body>
+
+</html>

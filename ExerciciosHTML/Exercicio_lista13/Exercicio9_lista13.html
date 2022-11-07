@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATIVIDADE 9 LISTA 13</title>
+    <link rel="stylesheet" href="asset/css/exercicios.css" />
+</head>
+
+<body>
+    <form id="frmEx7">
+        <label for="login">LOGIN:</label>
+        <input type="text" name="login" id="login" onchange="validaLogin()">
+        <br>
+        <br>
+        <label for="senha">PASSWORD:</label>
+        <input type="password" name="senha" id="senha" onchange="validaLogin()">
+
+        <label for="confirmaSenha">CONFIRM:</label>
+        <input type="password" name="confirmaSenha" id="confirmaSenha" onchange="validaLogin()">
+        <br>
+        <br>
+        <button type="submit" id="enviar" disabled onclick="validaLogin()">SEND DATA</button>
+    </form>
+    <script src="asset/js/exercicios.js"></script>
+</body>
+
+</html>

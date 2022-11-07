@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExercicioElevador\\ExercicioElevador\\ExercicioElevador.csproj",
+      "projectUniqueName": "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExercicioMetodosLista_7\\ExercicioElevador\\ExercicioElevador\\ExercicioElevador.csproj",
       "projectName": "ExercicioElevador",
-      "projectPath": "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExercicioElevador\\ExercicioElevador\\ExercicioElevador.csproj",
+      "projectPath": "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExercicioMetodosLista_7\\ExercicioElevador\\ExercicioElevador\\ExercicioElevador.csproj",
       "packagesPath": "C:\\Users\\garen\\.nuget\\packages\\",
-      "outputPath": "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExercicioElevador\\ExercicioElevador\\obj\\",
+      "outputPath": "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\ExercicioMetodosLista_7\\ExercicioElevador\\ExercicioElevador\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

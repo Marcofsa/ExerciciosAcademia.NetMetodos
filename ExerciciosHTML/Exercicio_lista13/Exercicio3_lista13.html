@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-widthform, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/exercicios.css">
+    <title>ATIVIDADE 3 LISTA 3</title>
+</head>
+
+<body>
+    <form name="ex1">
+        <h3>ESCOLHA SEU TEMA!</h3>
+        <label for="btnRED" class="btnRED">RED</label>
+        <input type="radio" id="btnRED" name="cores" value="RED" onclick="changeBackground('RD')">
+        <br>
+        <label for="btnGREEN" class="btnGREEN">GREEN</label>
+        <input type="radio" id="btnGREEN" name="cores" value="GREEN" onclick="changeBackground('GR')">
+        <br>
+        <label for="btnBLUE" class="btnBLUE">BLUE</label>
+        <input type="radio" id="btnBLUE" name="cores" value="BLUE" onclick="changeBackground('BL')">
+        <br>
+        <label for="btnYELLOW" class="btnYELLOW">YELLOW</label>
+        <input type="radio" id="btnYELLOW" name="cores" value="Vermelho" onclick="changeBackground('YL')">
+        <br>
+        <label for="btnRESET" class="btnRESET">RESETAR</label>
+        <input type="radio" id="btnRESET" name="cores" value="Restaurar Padrões" onclick="changeBackground('PD')">
+        <br>
+        <br>
+        <select id="cores" onchange="changeBackground(this.value)">
+            <option value="PD"></option>
+            <option value="RD">RED</option>
+            <option value="GR">GREEN</option>
+            <option value="BL">BLUE</option>
+            <option value="YL">YELLOW</option>
+        </select>
+    </form>
+    <script src="asset/js/exercicios.js"></script>
+</body>
+
+</html>

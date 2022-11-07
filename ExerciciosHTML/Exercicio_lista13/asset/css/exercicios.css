@@ -1,0 +1,35 @@
+.btnEx1 {
+    border-color: whitesmoke;
+    margin: 0px 5px 0px 5px;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.btnRED {
+    background-color: red;
+    color: lightyellow;
+}
+
+.btnGREEN {
+    background-color: green;
+    color: black;
+}
+
+.btnBLUE{
+    background-color: blue;
+    color: lightyellow;
+}
+
+.btnYELLOW{
+    background-color: yellow;
+    color: black;
+}
+
+.btnRESET {
+    color: black;
+}
+
+.linksEx2 {
+    text-decoration: none;
+    margin: 0px 20px 0px 20px;
+}
