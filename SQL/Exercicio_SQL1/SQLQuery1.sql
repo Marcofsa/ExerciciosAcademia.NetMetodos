@@ -37,7 +37,6 @@ ALTER TABLE alunos ADD altura INTEGER
 ALTER TABLE alunos DROP COLUMN idade
 
 -------------------------------------------
-
 create TABLE autores
 (
 id integer primary key identity, 
