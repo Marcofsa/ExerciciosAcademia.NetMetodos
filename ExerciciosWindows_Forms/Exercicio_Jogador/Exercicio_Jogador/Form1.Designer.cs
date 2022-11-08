@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox_nomesJogadores = new System.Windows.Forms.TextBox();
@@ -41,22 +42,22 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 15);
+            this.label1.Size = new System.Drawing.Size(85, 15);
             this.label1.TabIndex = 0;
-            this.label1.Text = "GamerTag: ";
+            this.label1.Text = "Digite o nome:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(583, 27);
+            this.label2.Location = new System.Drawing.Point(492, 32);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 15);
+            this.label2.Size = new System.Drawing.Size(153, 15);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Lista de jogadores:";
+            this.label2.Text = "Saída de dados com E-Mail:";
             // 
             // textBox_nomesJogadores
             // 
-            this.textBox_nomesJogadores.Location = new System.Drawing.Point(84, 24);
+            this.textBox_nomesJogadores.Location = new System.Drawing.Point(103, 24);
             this.textBox_nomesJogadores.Name = "textBox_nomesJogadores";
             this.textBox_nomesJogadores.Size = new System.Drawing.Size(216, 23);
             this.textBox_nomesJogadores.TabIndex = 2;
@@ -73,17 +74,19 @@
             // 
             // button_Adiciona
             // 
-            this.button_Adiciona.Location = new System.Drawing.Point(84, 57);
+            this.button_Adiciona.AutoEllipsis = true;
+            this.button_Adiciona.Location = new System.Drawing.Point(103, 57);
             this.button_Adiciona.Name = "button_Adiciona";
             this.button_Adiciona.Size = new System.Drawing.Size(75, 23);
             this.button_Adiciona.TabIndex = 4;
             this.button_Adiciona.Text = "Adicionar";
             this.button_Adiciona.UseVisualStyleBackColor = true;
+            this.button_Adiciona.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.button_Adiciona_KeyPress);
             this.button_Adiciona.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button_Adiciona_MouseClick);
             // 
             // button_Limpar
             // 
-            this.button_Limpar.Location = new System.Drawing.Point(165, 57);
+            this.button_Limpar.Location = new System.Drawing.Point(184, 56);
             this.button_Limpar.Name = "button_Limpar";
             this.button_Limpar.Size = new System.Drawing.Size(75, 23);
             this.button_Limpar.TabIndex = 5;
@@ -95,6 +98,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button_Limpar);
             this.Controls.Add(this.button_Adiciona);
@@ -102,6 +106,7 @@
             this.Controls.Add(this.textBox_nomesJogadores);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Cadastro de Jogadores";
             this.ResumeLayout(false);

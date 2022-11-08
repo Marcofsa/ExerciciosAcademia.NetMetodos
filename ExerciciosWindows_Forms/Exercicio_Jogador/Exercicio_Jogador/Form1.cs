@@ -20,11 +20,8 @@ namespace Exercicio_Jogador
             leitor.Close();
         }
         string email;
-
         private void button_Adiciona_MouseClick(object sender, MouseEventArgs e)
         {
-           
-
             textBox_nomesJogadores.Text = textBox_nomesJogadores.Text.ToUpper();
             if (Jogador.jaCadastrado(textBox_nomesJogadores.Text, lista_nomesJogadores))
             {
@@ -51,14 +48,17 @@ namespace Exercicio_Jogador
             escritor.WriteLine(textBox_nomesJogadores + ";" + email);
             escritor.Close();
         }
-
         private void button_Limpar_MouseClick(object sender, MouseEventArgs e)
         {
             textBox_listaNomes.Text = "";
             textBox_nomesJogadores.Text = "";
             lista_nomesJogadores.Clear();
         }
-        List<Jogador> lista_nomesJogadores = new List<Jogador>(); 
+        List<Jogador> lista_nomesJogadores = new List<Jogador>();
 
+        private void button_Adiciona_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
     }
 }
