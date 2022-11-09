@@ -16,24 +16,30 @@ namespace ConsoleApp1
         //  {
         // Calcular a média entre quatro números;
 
-        //int nt1, nt2;
+        //int nt1, nt2, nt3, nt4;
         //float media, soma;
 
         // Entrada;
 
-        // Console.WriteLine("Vamos calcular a media");
+        //Console.WriteLine("Vamos calcular a media\n");
         //Console.WriteLine(" ");
 
         // Coleta de valores;
 
         //Console.Write("Digite o primeiro valor: ");
-        // nt1 = int.Parse(Console.ReadLine());
+        //nt1 = int.Parse(Console.ReadLine());
 
         //Console.Write("Digite o segundo valor: ");
         //nt2 = int.Parse(Console.ReadLine());
 
+        //Console.Write("Digite o terceiro valor: ");
+        //nt3 = int.Parse(Console.ReadLine());
+
+        //Console.Write("Digite o quarto valor: ");
+        //nt4 = int.Parse(Console.ReadLine());
+
         //soma = (nt1 + nt2);
-        //media = soma / 2;
+        //media = soma / 4;
 
 
         //Console.Write(" soma = " + soma);

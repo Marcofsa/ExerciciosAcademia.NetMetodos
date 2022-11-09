@@ -98,46 +98,37 @@ nav a:hover {
 
 
 }
-
-
 footer {
     text-align: center;
     background: url("bg.jpg");
     padding: 40px 0;
 
 }
-
 .copyright {
     color: #ffffff;
     font-size: 25px;
     margin: 20px 0 0;
 }
-
 form {
 
     margin: 40px 0;
 }
-
 form label,
 form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
-
 }
-
 .input-padrao {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
 }
-
 .checkbox {
 
     margin: 20px 0;
 }
-
 .enviar {
 
     width: 40%;
@@ -152,25 +143,20 @@ form legend {
     cursor: pointer;
 
 }
-
 .enviar:hover {
     background: red;
     transform: scale(1.1);
 }
-
 table {
 
     margin: 20px 0 40px;
 }
-
-
 thead {
 
     background: #555555;
     color: white;
     font-weight: bold;
 }
-
 td,
 th {
 
