@@ -39,3 +39,4 @@ C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\DB_Gli
 C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\DB_Glicemia_SQL\DB_Glicemia_SQL\obj\Debug\net6.0-windows\DB_Glicemia_SQL.pdb
 C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\DB_Glicemia_SQL\DB_Glicemia_SQL\obj\Debug\net6.0-windows\DB_Glicemia_SQL.genruntimeconfig.cache
 C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\DB_Glicemia_SQL\DB_Glicemia_SQL\obj\Debug\net6.0-windows\ref\DB_Glicemia_SQL.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\ExerciciosWindows_Forms\DB_Glicemia_SQL\DB_Glicemia_SQL\obj\Debug\net6.0-windows\DB_Glicemia_SQL.Properties.Resources.resources

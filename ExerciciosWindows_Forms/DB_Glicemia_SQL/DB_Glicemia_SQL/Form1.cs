@@ -35,7 +35,7 @@ namespace DB_Glicemia_SQL
                     i++;
                 }
                 conexao.Close();
-                button_connect.Enabled = false;
+                button_connect.Enabled = true;
             } 
             catch (Exception)
             {
@@ -162,13 +162,11 @@ namespace DB_Glicemia_SQL
 
                 conexao.Close();
                 carregarListView();
-
             }
             catch (Exception)
             {
                 MessageBox.Show("PROBLEMAS DE CONECTIVIDADE COM O BANCO DE DADOS" + e.ToString(), "CUIDADO!");
             }
-
         }
     }
 }

@@ -143,28 +143,28 @@
             // 
             this.textBox_idPaciente.Location = new System.Drawing.Point(105, 121);
             this.textBox_idPaciente.Name = "textBox_idPaciente";
-            this.textBox_idPaciente.Size = new System.Drawing.Size(100, 23);
+            this.textBox_idPaciente.Size = new System.Drawing.Size(212, 23);
             this.textBox_idPaciente.TabIndex = 5;
             // 
             // textBox_dataMedicao
             // 
             this.textBox_dataMedicao.Location = new System.Drawing.Point(105, 92);
             this.textBox_dataMedicao.Name = "textBox_dataMedicao";
-            this.textBox_dataMedicao.Size = new System.Drawing.Size(100, 23);
+            this.textBox_dataMedicao.Size = new System.Drawing.Size(212, 23);
             this.textBox_dataMedicao.TabIndex = 6;
             // 
             // textBox_valorGlicemia
             // 
             this.textBox_valorGlicemia.Location = new System.Drawing.Point(105, 63);
             this.textBox_valorGlicemia.Name = "textBox_valorGlicemia";
-            this.textBox_valorGlicemia.Size = new System.Drawing.Size(100, 23);
+            this.textBox_valorGlicemia.Size = new System.Drawing.Size(212, 23);
             this.textBox_valorGlicemia.TabIndex = 7;
             // 
             // textBox_idMedida
             // 
             this.textBox_idMedida.Location = new System.Drawing.Point(105, 34);
             this.textBox_idMedida.Name = "textBox_idMedida";
-            this.textBox_idMedida.Size = new System.Drawing.Size(100, 23);
+            this.textBox_idMedida.Size = new System.Drawing.Size(212, 23);
             this.textBox_idMedida.TabIndex = 8;
             // 
             // label1
@@ -209,7 +209,7 @@
             this.button_gravar.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.button_gravar.Location = new System.Drawing.Point(105, 150);
             this.button_gravar.Name = "button_gravar";
-            this.button_gravar.Size = new System.Drawing.Size(100, 38);
+            this.button_gravar.Size = new System.Drawing.Size(100, 40);
             this.button_gravar.TabIndex = 13;
             this.button_gravar.Text = "Salvar";
             this.button_gravar.UseVisualStyleBackColor = false;
@@ -226,9 +226,9 @@
             this.panel_campos.Controls.Add(this.label3);
             this.panel_campos.Controls.Add(this.label4);
             this.panel_campos.Controls.Add(this.textBox_dataMedicao);
-            this.panel_campos.Location = new System.Drawing.Point(49, 222);
+            this.panel_campos.Location = new System.Drawing.Point(29, 187);
             this.panel_campos.Name = "panel_campos";
-            this.panel_campos.Size = new System.Drawing.Size(236, 216);
+            this.panel_campos.Size = new System.Drawing.Size(320, 216);
             this.panel_campos.TabIndex = 14;
             // 
             // Form1
@@ -244,7 +244,7 @@
             this.Controls.Add(this.listView1);
             this.Name = "Form1";
             this.Text = "TABELA GLICÊMICA";
-            this.TransparencyKey = System.Drawing.Color.WhiteSmoke;
+            this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel_campos.ResumeLayout(false);
             this.panel_campos.PerformLayout();
