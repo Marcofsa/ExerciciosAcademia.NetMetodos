@@ -13,7 +13,7 @@ namespace Exercicio2_Api_Web.Controllers
     {
 
         [HttpGet]
-        public async Task<IActionResult> getAllAsync([FromServices] Context context)
+        public async Task<IActionResult> getAllAsync([FromServices] Context context)    
         {
             var pessoas = await context
                 .Pessoas

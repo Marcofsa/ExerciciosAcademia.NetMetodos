@@ -1,4 +1,7 @@
-﻿namespace Exercicio2_Api_Web.DataModels
+﻿using system.Runtime.CompilerServices;
+
+
+namespace Exercicio2_Api_Web.DataModels
 {
     public class Pessoa
     {

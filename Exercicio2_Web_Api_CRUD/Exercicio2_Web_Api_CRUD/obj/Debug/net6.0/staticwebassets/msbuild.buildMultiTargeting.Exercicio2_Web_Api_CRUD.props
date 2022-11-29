@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Exercicio2_Web_Api_CRUD.props" />
+</Project>
