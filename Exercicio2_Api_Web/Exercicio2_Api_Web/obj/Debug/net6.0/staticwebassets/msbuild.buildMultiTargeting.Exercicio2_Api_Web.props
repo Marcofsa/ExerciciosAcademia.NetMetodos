@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Exercicio2_Api_Web.props" />
+</Project>

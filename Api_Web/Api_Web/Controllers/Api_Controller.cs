@@ -7,6 +7,8 @@ namespace Primeira_Aplicação_Web.Controllers
     [Route("api")]
     public class Api_Controller : ControllerBase
     {
+        //HTTP GET
+
         [HttpGet("Nome")]
         public string RetornaNome()
         {
@@ -17,15 +19,29 @@ namespace Primeira_Aplicação_Web.Controllers
         {
             return 26;
         }
-        [HttpPost("retornaNome/{nome}")]
+        [HttpGet("Nacionalidade")]
+        public string ReturnNacionalidade()
+        {
+            return "Brasil";
+        }
+
+        //HTTP POST
+
+        [HttpPost("retornaNome/{Nome}")]
         public string PegaNome([FromRoute] string nome)
         {
             return nome;
         }
-        [HttpPost("retornIdade/{idade}")]
+        [HttpPost("retornIdade/{Idade}")]
         public int PegaIdade([FromRoute] int idade)
         {
             return idade;
+        }
+        [HttpPost("nacionalidade/{Nacionalidade}")]
+
+        public string PegaNacionalidade([FromRoute] string nacionalidade)
+        {
+            return nacionalidade;
         }
     }
 }
