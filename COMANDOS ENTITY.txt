@@ -7,6 +7,7 @@ Update-Database
 
 DATABASE FIRST:
 
-Scaffold-DbContext "Data Source=localhost;initial Catalog=AtosEntity2;User ID=AtosEntity2;password=Atos_Entity_2;language=Portuguese;Trusted_Connection=True;TrustServerCertificate=True;"
+Scaffold-db_sistema "Data Source=localhost;Initial Catalog=db_sistema;" + "User ID=usuario; password=senha; language=Portuguese;Trusted_Connection=True;TrustServerCertificate=True;"
+
 
 Provider: Microsoft.EntityFrameworkCore.SqlServer
