@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2_Xamarin.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Sistema para ver se o número é par ou ímpar!" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="entradaValor" Keyboard=" Numeric" Placeholder="Informar um número inteiro:"/>
+            <Button x:Name="botaoExecutar"  Text="Executar"/>
+            <Label x:Name="labelResposta" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,16 @@
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App2_Xamarin\App2_Xamarin\App2_Xamarin\bin\Debug\netstandard2.0\App2_Xamarin.deps.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App2_Xamarin\App2_Xamarin\App2_Xamarin\bin\Debug\netstandard2.0\App2_Xamarin.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App2_Xamarin\App2_Xamarin\App2_Xamarin\bin\Debug\netstandard2.0\App2_Xamarin.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App2_Xamarin\App2_Xamarin\App2_Xamarin\obj\Debug\netstandard2.0\App2_Xamarin.csproj.AssemblyReference.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App2_Xamarin\App2_Xamarin\App2_Xamarin\obj\Debug\netstandard2.0\App2_Xamarin.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App2_Xamarin\App2_Xamarin\App2_Xamarin\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App2_Xamarin\App2_Xamarin\App2_Xamarin\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App2_Xamarin\App2_Xamarin\App2_Xamarin\obj\Debug\netstandard2.0\Page1.xaml.g.cs
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App2_Xamarin\App2_Xamarin\App2_Xamarin\obj\Debug\netstandard2.0\App2_Xamarin.AssemblyInfoInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App2_Xamarin\App2_Xamarin\App2_Xamarin\obj\Debug\netstandard2.0\App2_Xamarin.AssemblyInfo.cs
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App2_Xamarin\App2_Xamarin\App2_Xamarin\obj\Debug\netstandard2.0\App2_Xamarin.csproj.CoreCompileInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App2_Xamarin\App2_Xamarin\App2_Xamarin\obj\Debug\netstandard2.0\XamlC.stamp
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App2_Xamarin\App2_Xamarin\App2_Xamarin\obj\Debug\netstandard2.0\App2_Xamarin.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App2_Xamarin\App2_Xamarin\App2_Xamarin\obj\Debug\netstandard2.0\refint\App2_Xamarin.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App2_Xamarin\App2_Xamarin\App2_Xamarin\obj\Debug\netstandard2.0\App2_Xamarin.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App2_Xamarin\App2_Xamarin\App2_Xamarin\obj\Debug\netstandard2.0\ref\App2_Xamarin.dll

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "ih+YABuKB8XNXzO5S3oPdbHfQK7mWfWQ34XUq2VYCaa4AT51MBqQmtgLIUcROzZLD4i3o1ezwFBDf4XXofQKrA==",
+  "success": true,
+  "projectFilePath": "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\App_Cross_Plataform\\App_Cross_Plataform\\App_Cross_Plataform\\App_Cross_Plataform.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\garen\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\garen\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\garen\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\garen\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\garen\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

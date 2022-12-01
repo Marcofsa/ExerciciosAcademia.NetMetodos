@@ -1,0 +1,15 @@
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App_Cross_Plataform\App_Cross_Plataform\App_Cross_Plataform\bin\Debug\netstandard2.0\App_Cross_Plataform.deps.json
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App_Cross_Plataform\App_Cross_Plataform\App_Cross_Plataform\bin\Debug\netstandard2.0\App_Cross_Plataform.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App_Cross_Plataform\App_Cross_Plataform\App_Cross_Plataform\bin\Debug\netstandard2.0\App_Cross_Plataform.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App_Cross_Plataform\App_Cross_Plataform\App_Cross_Plataform\obj\Debug\netstandard2.0\App_Cross_Plataform.csproj.AssemblyReference.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App_Cross_Plataform\App_Cross_Plataform\App_Cross_Plataform\obj\Debug\netstandard2.0\App_Cross_Plataform.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App_Cross_Plataform\App_Cross_Plataform\App_Cross_Plataform\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App_Cross_Plataform\App_Cross_Plataform\App_Cross_Plataform\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App_Cross_Plataform\App_Cross_Plataform\App_Cross_Plataform\obj\Debug\netstandard2.0\App_Cross_Plataform.AssemblyInfoInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App_Cross_Plataform\App_Cross_Plataform\App_Cross_Plataform\obj\Debug\netstandard2.0\App_Cross_Plataform.AssemblyInfo.cs
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App_Cross_Plataform\App_Cross_Plataform\App_Cross_Plataform\obj\Debug\netstandard2.0\App_Cross_Plataform.csproj.CoreCompileInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App_Cross_Plataform\App_Cross_Plataform\App_Cross_Plataform\obj\Debug\netstandard2.0\XamlC.stamp
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App_Cross_Plataform\App_Cross_Plataform\App_Cross_Plataform\obj\Debug\netstandard2.0\App_Cross_Plataform.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App_Cross_Plataform\App_Cross_Plataform\App_Cross_Plataform\obj\Debug\netstandard2.0\refint\App_Cross_Plataform.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App_Cross_Plataform\App_Cross_Plataform\App_Cross_Plataform\obj\Debug\netstandard2.0\App_Cross_Plataform.pdb
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\App_Cross_Plataform\App_Cross_Plataform\App_Cross_Plataform\obj\Debug\netstandard2.0\ref\App_Cross_Plataform.dll
