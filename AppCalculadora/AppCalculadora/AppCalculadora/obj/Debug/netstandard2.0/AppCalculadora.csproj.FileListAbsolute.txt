@@ -1,0 +1,10 @@
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\AppCalculadora\AppCalculadora\AppCalculadora\obj\Debug\netstandard2.0\AppCalculadora.csproj.AssemblyReference.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\AppCalculadora\AppCalculadora\AppCalculadora\obj\Debug\netstandard2.0\AppCalculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\AppCalculadora\AppCalculadora\AppCalculadora\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\AppCalculadora\AppCalculadora\AppCalculadora\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\AppCalculadora\AppCalculadora\AppCalculadora\obj\Debug\netstandard2.0\AppCalculadora.AssemblyInfoInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\AppCalculadora\AppCalculadora\AppCalculadora\obj\Debug\netstandard2.0\AppCalculadora.AssemblyInfo.cs
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\AppCalculadora\AppCalculadora\AppCalculadora\obj\Debug\netstandard2.0\AppCalculadora.csproj.CoreCompileInputs.cache
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\AppCalculadora\AppCalculadora\AppCalculadora\obj\Debug\netstandard2.0\AppCalculadora.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\AppCalculadora\AppCalculadora\AppCalculadora\obj\Debug\netstandard2.0\refint\AppCalculadora.dll
+C:\GIT New ACADEMIA\ExerciciosAcademia.NetMetodos\AppCalculadora\AppCalculadora\AppCalculadora\obj\Debug\netstandard2.0\AppCalculadora.pdb

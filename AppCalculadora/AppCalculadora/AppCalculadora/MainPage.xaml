@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCalculadora.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+       
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="resultText" FontSize="48"
+               FontAttributes="Bold" BackgroundColor="DarkGreen" Text="0"
+               TextColor="White"
+               HorizontalTextAlignment="End"
+               VerticalTextAlignment="Center"
+               LineBreakMode="NoWrap"
+               Grid.ColumnSpan="4" Grid.Row="0" />
+        <!--Linha 1-->
+        
+        <Button Text="7" Grid.Row="1" Grid.Column="0"
+                BackgroundColor="White"
+                TextColor="Black"
+                FontSize="36" BorderRadius="0"
+                Clicked="OnSelectNumber" Clicked="selecionaBotao"/>
+
+        <Button Text="8" Grid.Row="1" Grid.Column="1"
+                BackgroundColor="White"
+                TextColor="Black"
+                FontSize="36"
+                BorderRadius="0"
+                Clicked="OnSelectNumber" Clicked="selecionaBotao"/>
+
+        <Button Text="9" Grid.Row="1" Grid.Column="2"
+                BackgroundColor="White"
+                TextColor="Black"
+                FontSize="36"
+                BorderRadius="0"
+                Clicked="OnSelectNumber" Clicked="selecionaBotao"/>
+        
+        <Button Text="/" Grid.Row="1" Grid.Column="3"
+                BackgroundColor="Orange"
+                TextColor="White"
+                FontSize="36"
+                BorderRadius="0"
+                Clicked="OnSelectNumber" Clicked="selecionaOperador"/>
+        
+        <!--Linha 2-->
+        
+        <Button Text="4" Grid.Row="2" Grid.Column="0"
+                BackgroundColor="White"
+                TextColor="Black"
+                FontSize="36" BorderRadius="0"
+                Clicked="OnSelectNumber" Clicked="selecionaBotao"/>
+
+        <Button Text="5" Grid.Row="2" Grid.Column="1"
+                BackgroundColor="White"
+                TextColor="Black"
+                FontSize="36" BorderRadius="0"
+                Clicked="OnSelectNumber" Clicked="selecionaBotao"/>
+
+        <Button Text="6" Grid.Row="2" Grid.Column="2"
+                BackgroundColor="White"
+                TextColor="Black"
+                FontSize="36" BorderRadius="0"
+                Clicked="OnSelectNumber" Clicked="selecionaBotao"/>
+
+        <Button Text="X" Grid.Row="2" Grid.Column="3"
+                BackgroundColor="Orange"
+                TextColor="White"
+                FontSize="36" BorderRadius="0"
+                Clicked="OnSelectNumber" Clicked="selecionaOperador"/>
+        
+        <!--Linha 3-->
+
+        <Button Text="1" Grid.Row="3" Grid.Column="0"
+                BackgroundColor="White"
+                TextColor="Black"
+                FontSize="36" BorderRadius="0"
+                Clicked="OnSelectNumber" Clicked="selecionaBotao"/>
+
+        <Button Text="2" Grid.Row="3" Grid.Column="1"
+                BackgroundColor="White"
+                TextColor="Black"
+                FontSize="36" BorderRadius="2"
+                Clicked="OnSelectNumber" Clicked="selecionaBotao"/>
+
+        <Button Text="3" Grid.Row="3" Grid.Column="2"
+                BackgroundColor="White"
+                TextColor="Black"
+                FontSize="36" BorderRadius="0"
+                Clicked="OnSelectNumber" Clicked="selecionaBotao"/>
+
+        <Button Text="-" Grid.Row="3" Grid.Column="3"
+                BackgroundColor="Orange"
+                TextColor="White"
+                FontSize="36" BorderRadius="0"
+                Clicked="OnSelectNumber" Clicked="selecionaOperador"/>
+        
+        <!--Linha 4-->
+
+        <Button Text="0" Grid.Row="4" Grid.ColumnSpan="3"
+                BackgroundColor="White"
+                TextColor="Black"
+                FontSize="36" BorderRadius="0"
+                Clicked="OnSelectNumber" Clicked="selecionaBotao"/>
+        
+        <Button Text="+" Grid.Row="4" Grid.Column="1"
+                BackgroundColor="Orange"
+                TextColor="White"
+                FontSize="36" BorderRadius="3"
+                Clicked="OnSelectNumber" Clicked="selecionaOperador"/>
+        
+        <!--Linha 5-->
+
+        <Button Text="C" Grid.Row="5" Grid.Column="0"
+                BackgroundColor="DarkGray"
+                TextColor="White"
+                FontSize="36" BorderRadius="0"
+                Clicked="OnSelectNumber" Clicked="botaoLimpar"/>
+
+        <Button Text="=" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3"
+                BackgroundColor="Orange"
+                TextColor="White"
+                FontSize="36" BorderRadius="0"
+                Clicked="OnSelectNumber" Clicked="realizaOperacao"/>
+
+    </Grid>
+
+</ContentPage>
