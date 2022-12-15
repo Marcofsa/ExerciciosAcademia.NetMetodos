@@ -1,0 +1,39 @@
+@use 'sass:map';
+@use 'sass:meta';
+@use '../all-theme';
+@use '../../typography/all-typography';
+@use '../palette';
+@use '../theming';
+@use '../../../legacy-core/theming/all-theme' as legacy-all-theme;
+
+// Recursively replaces all of the values inside a Sass map with a different value.
+@function _replace-all-values($palette, $replacement) {
+  $output: ();
+
+  @each $key, $value in $palette {
+    @if (meta.type-of($value) == 'map') {
+      $output: map.merge(($key: _replace-all-values($value, $replacement)), $output);
+    }
+    @else {
+      $output: map.merge(($key: $replacement), $output);
+    }
+  }
+
+  @return $output;
+}
+
+// Theme used to test that our themes would compile if the colors were specified as CSS variables.
+._demo-css-variables-theme {
+  $palette: theming.define-palette(palette.$blue-grey-palette);
+  $theme: theming.define-dark-theme((
+    color: (
+      primary: $palette,
+      accent: $palette,
+      warn: $palette
+    ),
+    typography: all-typography.define-typography-config(),
+  ));
+  $css-var-theme: _replace-all-values($theme, var(--test-var));
+  @include all-theme.all-component-themes($css-var-theme);
+  @include legacy-all-theme.all-legacy-component-themes($css-var-theme);
+}

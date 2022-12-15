@@ -1,0 +1,60 @@
+load("@npm//@bazel/concatjs:index.bzl", "ts_config")
+load("//src/cdk:config.bzl", "CDK_ENTRYPOINTS")
+load("//src/material:config.bzl", "MATERIAL_ENTRYPOINTS", "MATERIAL_TESTING_ENTRYPOINTS")
+load("//tools/dgeni:index.bzl", "dgeni_api_docs")
+load("//tools:defaults.bzl", "ts_library")
+
+package(default_visibility = ["//visibility:public"])
+
+cdkApiEntryPoints = CDK_ENTRYPOINTS
+
+materialApiEntryPoints = MATERIAL_ENTRYPOINTS + MATERIAL_TESTING_ENTRYPOINTS
+
+# List that contains all source files that need to be processed by Dgeni.
+apiSourceFiles = ["//src/cdk/%s:source-files" % name for name in cdkApiEntryPoints] + \
+                 ["//src/material/%s:source-files" % name for name in materialApiEntryPoints]
+
+exports_files([
+    "bazel-tsconfig-build.json",
+    "bazel-tsconfig-test.json",
+    "README.md",
+])
+
+ts_config(
+    name = "tsconfig-test",
+    src = "bazel-tsconfig-test.json",
+    deps = ["bazel-tsconfig-build.json"],
+)
+
+dgeni_api_docs(
+    name = "api-docs",
+    srcs = apiSourceFiles + [
+        # Add all Angular packages to the sources because some Material exports use
+        # Angular exports and these should not cause any warnings when Dgeni uses the
+        # type checker to parse our TypeScript sources.
+        "@npm//@angular/core",
+        "@npm//@angular/common",
+        "@npm//@angular/forms",
+        "@npm//@angular/animations",
+        "@npm//@angular/platform-browser",
+    ],
+    entry_points = {
+        "cdk": cdkApiEntryPoints,
+        "material": materialApiEntryPoints,
+    },
+    tags = ["docs-package"],
+)
+
+ts_library(
+    name = "dev_mode_types",
+    srcs = ["dev-mode-types.d.ts"],
+)
+
+ts_config(
+    name = "tsec_config",
+    src = "tsconfig-tsec.json",
+    deps = [
+        ":bazel-tsconfig-build.json",
+        "//goldens:tsec-exemption.json",
+    ],
+)

@@ -1,0 +1,20 @@
+load("//src/cdk-experimental:config.bzl", "CDK_EXPERIMENTAL_TARGETS")
+load("//tools:defaults.bzl", "ng_package", "ts_library")
+
+package(default_visibility = ["//visibility:public"])
+
+ts_library(
+    name = "cdk-experimental",
+    srcs = glob(
+        ["*.ts"],
+        exclude = ["**/*.spec.ts"],
+    ),
+    deps = ["@npm//@angular/core"],
+)
+
+ng_package(
+    name = "npm_package",
+    srcs = ["package.json"],
+    tags = ["release-package"],
+    deps = CDK_EXPERIMENTAL_TARGETS,
+)

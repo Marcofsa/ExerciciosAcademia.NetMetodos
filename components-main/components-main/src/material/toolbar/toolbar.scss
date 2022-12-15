@@ -1,0 +1,41 @@
+@use '@angular/cdk';
+
+$row-padding: 16px !default;
+
+// @deprecated @breaking-change 8.0.0
+// TODO: Remove once internal g3 apps no longer depend on this variable. Tracked with: COMP-303.
+$height-mobile-portrait: 56px !default;
+
+.mat-toolbar {
+  @include cdk.high-contrast(active, off) {
+    outline: solid 1px;
+  }
+
+  .mat-mdc-button-base.mat-unthemed {
+    --mdc-text-button-label-text-color: inherit;
+    --mdc-outlined-button-label-text-color: inherit;
+  }
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+  display: flex;
+  box-sizing: border-box;
+
+  padding: 0 $row-padding;
+  width: 100%;
+
+  // Flexbox Vertical Alignment
+  flex-direction: row;
+  align-items: center;
+
+  // Per Material specs a toolbar cannot have multiple lines inside of a single row.
+  // Disable text wrapping inside of the toolbar. Developers are still able to overwrite it.
+  white-space: nowrap;
+}
+
+.mat-toolbar-multiple-rows {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  width: 100%;
+}

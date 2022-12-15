@@ -1,0 +1,20 @@
+<div #demoYouTubePlayer class="demo-youtube-player">
+  <h1>Basic Example</h1>
+  <section>
+    <div class="demo-video-selection">
+      <label>Pick the video:</label>
+      <mat-radio-group aria-label="Select a video" [(ngModel)]="selectedVideo">
+        <mat-radio-button *ngFor="let video of videos" [value]="video">
+          {{video.name}}
+        </mat-radio-button>
+        <mat-radio-button [value]="undefined">Unset</mat-radio-button>
+      </mat-radio-group>
+    </div>
+    <div class="demo-video-selection">
+      <mat-checkbox [(ngModel)]="disableCookies">Disable cookies</mat-checkbox>
+    </div>
+    <youtube-player [videoId]="selectedVideo && selectedVideo.id"
+                    [width]="videoWidth" [height]="videoHeight"
+                    [disableCookies]="disableCookies"></youtube-player>
+  </section>
+</div>

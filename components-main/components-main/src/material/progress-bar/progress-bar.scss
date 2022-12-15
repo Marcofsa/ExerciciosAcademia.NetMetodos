@@ -1,0 +1,38 @@
+@use '../core/mdc-helpers/mdc-helpers';
+@use '@material/linear-progress/linear-progress' as mdc-linear-progress;
+@use '@material/linear-progress/linear-progress-theme' as mdc-linear-progress-theme;
+
+@include mdc-helpers.disable-mdc-fallback-declarations {
+  @include mdc-linear-progress.static-styles($query: mdc-helpers.$mdc-base-styles-query);
+
+  // TODO(crisbeto): we should be able to save some bytes here by setting the `track-color`
+  // to null, but MDC's styles assume that a string is always going to be passed in.
+  @include mdc-linear-progress-theme.theme-styles($theme: mdc-linear-progress-theme.$light-theme);
+}
+
+.mat-mdc-progress-bar {
+  // Explicitly set to `block` since the browser defaults custom elements to `inline`.
+  display: block;
+
+  // Inverts the progress bar horizontally in `query` mode.
+  &[mode='query'] {
+    transform: scaleX(-1);
+  }
+
+  &._mat-animation-noopable {
+    .mdc-linear-progress__buffer-dots,
+    .mdc-linear-progress__primary-bar,
+    .mdc-linear-progress__secondary-bar,
+    .mdc-linear-progress__bar-inner.mdc-linear-progress__bar-inner {
+      // Disable the loading animations.
+      animation: none;
+    }
+
+    .mdc-linear-progress__primary-bar,
+    .mdc-linear-progress__buffer-bar {
+      // There's a `transitionend` event that depends on this element. Add a very short
+      // transition when animations are disabled so that the event can still fire.
+      transition: transform 1ms;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.demo-options-connected-overlay {
+  display: flex;
+  margin: 20px;
+
+  & > div {
+    margin: 16px;
+  }
+
+  .mat-mdc-radio-button {
+    display: block;
+    margin-bottom: 5px;
+  }
+}
+
+.demo-overlay-connected-overlay {
+  display: block;
+
+  background: lightblue;
+  min-width: 50px;
+  min-height: 50px;
+
+  max-height: 100%;
+  overflow: auto;
+}
+
+.demo-trigger-connected-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.cdk-overlay-connected-position-bounding-box.demo-bounding-box-visible {
+  background: rgb(255, 69, 0, 0.2);
+}

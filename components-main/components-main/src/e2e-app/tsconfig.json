@@ -1,0 +1,22 @@
+// Configuration for IDEs only.
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "..",
+    "baseUrl": ".",
+    "paths": {
+      "@angular/cdk/*": ["../cdk/*"],
+      "@angular/material/*": ["../material/*"],
+      "@angular/material-experimental/*": ["../material-experimental/*"],
+      "@angular/material-experimental": ["../material-experimental/"],
+      "@angular/cdk-experimental/*": ["../cdk-experimental/*"],
+      "@angular/cdk-experimental": ["../cdk-experimental/"],
+      "@angular/material-moment-adapter": ["../material-moment-adapter/"],
+      "@angular/material-luxon-adapter": ["../material-luxon-adapter/"],
+      "@angular/material-date-fns-adapter": ["../material-date-fns-adapter/"],
+      "@angular/components-examples": ["../components-examples/"],
+      "@angular/components-examples/*": ["../components-examples/*"]
+    }
+  },
+  "include": ["./**/*.ts"]
+}

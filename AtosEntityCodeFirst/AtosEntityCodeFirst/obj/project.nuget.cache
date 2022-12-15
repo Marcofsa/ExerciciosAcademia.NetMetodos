@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fKtZPTza63n/eIH6V9FQqq6Kk3hg+R1NYBv0AcisXds+yUob+pJgEFgRBmT/D0JLNieZQuD1RBKPmfhFdaN9WA==",
+  "dgSpecHash": "4cEn6v34aqKkxAjnxB7k2+eXANgWvaiKGfnghZUMgaV9ZLZQ7VrzvYxWEm2zS0EFiiUKmLZau3blA6IR8tH+sw==",
   "success": true,
-  "projectFilePath": "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\academiaDotNet_3-main\\anotacoesFabricio\\AtosEntityCodeFirst\\AtosEntityCodeFirst\\AtosEntityCodeFirst.csproj",
+  "projectFilePath": "C:\\GIT New ACADEMIA\\ExerciciosAcademia.NetMetodos\\AtosEntityCodeFirst\\AtosEntityCodeFirst\\AtosEntityCodeFirst.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\garen\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\garen\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

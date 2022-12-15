@@ -1,0 +1,99 @@
+
+@use '@angular/cdk';
+
+@use '../core/style/variables';
+@use '../core/style/elevation';
+
+.mat-expansion-panel {
+  $border-radius: 4px;
+
+  box-sizing: content-box;
+  display: block;
+  margin: 0;
+  border-radius: $border-radius;
+  overflow: hidden;
+  transition: margin 225ms variables.$fast-out-slow-in-timing-function,
+      elevation.private-transition-property-value();
+
+  // Required so that the `box-shadow` works after the focus indicator relatively positions the
+  // header.
+  position: relative;
+
+  .mat-accordion & {
+    &:not(.mat-expanded), &:not(.mat-expansion-panel-spacing) {
+      border-radius: 0;
+    }
+
+    &:first-of-type {
+      border-top-right-radius: $border-radius;
+      border-top-left-radius: $border-radius;
+    }
+
+    &:last-of-type {
+      border-bottom-right-radius: $border-radius;
+      border-bottom-left-radius: $border-radius;
+    }
+  }
+
+  @include cdk.high-contrast(active, off) {
+    outline: solid 1px;
+  }
+
+  &.ng-animate-disabled,
+  .ng-animate-disabled &,
+  &._mat-animation-noopable {
+    transition: none;
+  }
+}
+
+.mat-expansion-panel-content {
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+
+  // Usually the `visibility: hidden` added by the animation is enough to prevent focus from
+  // entering the collapsed content, but children with their own `visibility` can override it.
+  // In other components we set a `display: none` at the root to stop focus from reaching the
+  // elements, however we can't do that here, because the content can determine the width
+  // of an expansion panel. The most practical fallback is to use `!important` to override
+  // any custom visibility.
+  &[style*='visibility: hidden'] * {
+    visibility: hidden !important;
+  }
+}
+
+.mat-expansion-panel-body {
+  padding: 0 24px 16px;
+}
+
+.mat-expansion-panel-spacing {
+  margin: 16px 0;
+
+  .mat-accordion > &:first-child,
+  .mat-accordion > *:first-child:not(.mat-expansion-panel) & {
+    margin-top: 0;
+  }
+
+  .mat-accordion > &:last-child,
+  .mat-accordion > *:last-child:not(.mat-expansion-panel) & {
+    margin-bottom: 0;
+  }
+}
+
+.mat-action-row {
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 16px 8px 16px 24px;
+
+  .mat-button-base, .mat-mdc-button-base {
+    margin-left: 8px;
+
+    [dir='rtl'] & {
+      margin-left: 0;
+      margin-right: 8px;
+    }
+  }
+}

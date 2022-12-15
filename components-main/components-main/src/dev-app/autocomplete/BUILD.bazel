@@ -1,0 +1,25 @@
+load("//tools:defaults.bzl", "ng_module", "sass_binary")
+
+package(default_visibility = ["//visibility:public"])
+
+ng_module(
+    name = "autocomplete",
+    srcs = glob(["**/*.ts"]),
+    assets = [
+        "autocomplete-demo.html",
+        ":autocomplete_demo_scss",
+    ],
+    deps = [
+        "//src/material/autocomplete",
+        "//src/material/button",
+        "//src/material/card",
+        "//src/material/form-field",
+        "//src/material/input",
+        "@npm//@angular/forms",
+    ],
+)
+
+sass_binary(
+    name = "autocomplete_demo_scss",
+    src = "autocomplete-demo.scss",
+)

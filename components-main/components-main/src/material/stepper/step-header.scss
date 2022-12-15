@@ -1,0 +1,98 @@
+@use '@angular/cdk';
+
+@use '../core/style/layout-common';
+@use './stepper-variables';
+
+.mat-step-header {
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  box-sizing: content-box;
+  -webkit-tap-highlight-color: transparent;
+
+  // Stepper headers have the focus indicator as a descendant,
+  // because `::before` is used for other styling.
+  &:focus .mat-focus-indicator::before {
+    content: '';
+  }
+
+  @include cdk.high-contrast(active, off) {
+    outline: solid 1px;
+
+    &[aria-selected='true'] {
+      .mat-step-label {
+        text-decoration: underline;
+      }
+    }
+
+    // When a step header is disabled in high contrast mode, set the text color to the disabled
+    // color, which is (unintuitively) named "GrayText".
+    &[aria-disabled='true'] {
+      outline-color: GrayText;
+      .mat-step-label,
+      .mat-step-icon,
+      .mat-step-optional {
+        color: GrayText;
+      }
+    }
+  }
+}
+
+.mat-step-optional,
+.mat-step-sub-label-error {
+  font-size: stepper-variables.$step-sub-label-font-size;
+}
+
+.mat-step-icon {
+  border-radius: 50%;
+  height: stepper-variables.$label-header-height;
+  width: stepper-variables.$label-header-height;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.mat-step-icon-content {
+  // Use absolute positioning to center the content, because it works better with text.
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  // We aren't using any flex features here, but using the `display: flex` prevents
+  // the browser from adding extra whitespace at the bottom of the element.
+  display: flex;
+}
+
+.mat-step-icon .mat-icon {
+  font-size: stepper-variables.$step-header-icon-size;
+  height: stepper-variables.$step-header-icon-size;
+  width: stepper-variables.$step-header-icon-size;
+}
+
+.mat-step-icon-state-error .mat-icon {
+  font-size: stepper-variables.$step-header-icon-size + 8;
+  height: stepper-variables.$step-header-icon-size + 8;
+  width: stepper-variables.$step-header-icon-size + 8;
+}
+
+.mat-step-label {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: stepper-variables.$label-min-width;
+  vertical-align: middle;
+}
+
+.mat-step-text-label {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+// Increase specificity because ripple styles are part of the `mat-core` mixin and can
+// potentially overwrite the absolute position of the container.
+.mat-step-header .mat-step-header-ripple {
+  @include layout-common.fill;
+  pointer-events: none;
+}

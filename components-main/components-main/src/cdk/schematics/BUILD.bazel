@@ -1,0 +1,91 @@
+load("@build_bazel_rules_nodejs//:index.bzl", "copy_to_bin")
+load("//tools:defaults.bzl", "jasmine_node_test", "pkg_npm", "ts_library")
+
+package(default_visibility = ["//visibility:public"])
+
+copy_to_bin(
+    name = "schematics_assets",
+    srcs = glob([
+        "**/files/**/*",
+        "**/*.json",
+    ]),
+)
+
+ts_library(
+    name = "schematics",
+    srcs = glob(
+        ["**/*.ts"],
+        exclude = [
+            "**/files/**/*.ts",
+            "**/*.spec.ts",
+            "testing/**/*.ts",
+        ],
+    ),
+    # Schematics can not yet run in ESM module. For now we continue to use CommonJS.
+    # TODO(ESM): remove this once the Angular CLI supports ESM schematics.
+    devmode_module = "commonjs",
+    prodmode_module = "commonjs",
+    tsconfig = ":tsconfig.json",
+    deps = [
+        "//src/cdk/schematics/update-tool",
+        "@npm//@schematics/angular",
+        "@npm//@angular-devkit/core",
+        "@npm//@angular-devkit/schematics",
+        # TODO(devversion): Only include jasmine for test sources (See: tsconfig types).
+        "@npm//@types/jasmine",
+        "@npm//@types/glob",
+        "@npm//@types/node",
+        "@npm//glob",
+        "@npm//parse5",
+        "@npm//typescript",
+    ],
+)
+
+# This package is intended to be combined into the main @angular/cdk package as a dep.
+pkg_npm(
+    name = "npm_package",
+    srcs = ["package.json"],
+    deps = [
+        ":schematics",
+        ":schematics_assets",
+    ],
+)
+
+### Testing rules
+
+jasmine_node_test(
+    name = "unit_tests",
+    srcs = [":unit_test_sources"],
+    data = [
+        ":schematics_assets",
+    ],
+)
+
+ts_library(
+    name = "unit_test_sources",
+    testonly = True,
+    srcs = glob(
+        ["**/*.spec.ts"],
+        exclude = [
+            "**/*.e2e.spec.ts",
+            "**/files/**/*.spec.ts",
+        ],
+    ),
+    # Schematics can not yet run in ESM module. For now we continue to use CommonJS.
+    # TODO(ESM): remove this once the Angular CLI supports ESM schematics.
+    devmode_module = "commonjs",
+    prodmode_module = "commonjs",
+    tsconfig = ":tsconfig.json",
+    deps = [
+        ":schematics",
+        "//src/cdk/schematics/testing",
+        "//src/cdk/schematics/update-tool",
+        "//src/cdk/testing/private",
+        "@npm//@angular-devkit/schematics",
+        "@npm//@bazel/runfiles",
+        "@npm//@schematics/angular",
+        "@npm//@types/jasmine",
+        "@npm//@types/node",
+        "@npm//typescript",
+    ],
+)

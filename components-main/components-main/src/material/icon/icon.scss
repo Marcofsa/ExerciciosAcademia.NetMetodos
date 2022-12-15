@@ -1,0 +1,46 @@
+@use '../core/style/vendor-prefixes';
+
+// The width/height of the icon element.
+$size: 24px !default;
+
+.mat-icon {
+  @include vendor-prefixes.user-select(none);
+  background-repeat: no-repeat;
+  display: inline-block;
+  fill: currentColor;
+  height: $size;
+  width: $size;
+
+  // In some cases the icon elements may extend beyond the container. Clip these cases
+  // in order to avoid weird overflows and click areas. See #11826.
+  overflow: hidden;
+
+  &.mat-icon-inline {
+    font-size: inherit;
+    height: inherit;
+    line-height: inherit;
+    width: inherit;
+  }
+
+  &.mat-ligature-font[fontIcon]::before {
+    content: attr(fontIcon);
+  }
+}
+
+// Icons that will be mirrored in RTL.
+[dir='rtl'] .mat-icon-rtl-mirror {
+  transform: scale(-1, 1);
+}
+
+.mat-form-field:not(.mat-form-field-appearance-legacy) {
+  .mat-form-field-prefix,
+  .mat-form-field-suffix {
+    .mat-icon {
+      display: block;
+    }
+
+    .mat-icon-button .mat-icon {
+      margin: auto;
+    }
+  }
+}

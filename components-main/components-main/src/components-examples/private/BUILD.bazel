@@ -1,0 +1,17 @@
+load("//tools:defaults.bzl", "ts_library")
+
+package(default_visibility = ["//visibility:public"])
+
+ts_library(
+    name = "private",
+    srcs = glob(["*.ts"]),
+    deps = [
+        "//src/components-examples",
+        "@npm//@angular/core",
+    ],
+)
+
+ts_library(
+    name = "localize_types",
+    srcs = ["localize-types.d.ts"],
+)

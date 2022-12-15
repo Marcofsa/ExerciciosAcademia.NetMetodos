@@ -1,0 +1,4 @@
+exports_files([
+    "size-test.yaml",
+    "tsec-exemption.json",
+])

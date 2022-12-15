@@ -1,0 +1,23 @@
+load("//tools:defaults.bzl", "ng_module", "sass_binary")
+
+package(default_visibility = ["//visibility:public"])
+
+ng_module(
+    name = "youtube-player",
+    srcs = glob(["**/*.ts"]),
+    assets = [
+        "youtube-player-demo.html",
+        ":youtube_player_demo_scss",
+    ],
+    deps = [
+        "//src/material/checkbox",
+        "//src/material/radio",
+        "//src/youtube-player",
+        "@npm//@angular/forms",
+    ],
+)
+
+sass_binary(
+    name = "youtube_player_demo_scss",
+    src = "youtube-player-demo.scss",
+)

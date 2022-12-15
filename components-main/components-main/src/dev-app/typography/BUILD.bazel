@@ -1,0 +1,21 @@
+load("//tools:defaults.bzl", "ng_module", "sass_binary")
+
+package(default_visibility = ["//visibility:public"])
+
+ng_module(
+    name = "typography",
+    srcs = glob(["**/*.ts"]),
+    assets = [
+        "typography-demo.html",
+        ":typography_demo_scss",
+    ],
+    deps = [
+        "//src/material/checkbox",
+        "@npm//@angular/forms",
+    ],
+)
+
+sass_binary(
+    name = "typography_demo_scss",
+    src = "typography-demo.scss",
+)

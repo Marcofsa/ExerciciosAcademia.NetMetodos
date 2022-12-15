@@ -1,0 +1,18 @@
+<div class="demo-ripple">
+  <section>
+    <mat-checkbox [(ngModel)]="disableButtonRipples">Disable button ripples</mat-checkbox>
+    <button mat-button [disableRipple]="disableButtonRipples">flat</button>
+    <button mat-raised-button [disableRipple]="disableButtonRipples">raised</button>
+    <button mat-fab [disableRipple]="disableButtonRipples">
+      <mat-icon>check</mat-icon>
+    </button>
+    <button mat-mini-fab [disableRipple]="disableButtonRipples">
+      <mat-icon>check</mat-icon>
+    </button>
+  </section>
+
+  <hr>
+
+  <h3>Ripple overview example</h3>
+  <ripple-overview-example></ripple-overview-example>
+</div>

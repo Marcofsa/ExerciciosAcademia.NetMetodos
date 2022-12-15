@@ -1,0 +1,32 @@
+load("//tools:defaults.bzl", "markdown_to_html", "ng_module")
+
+package(default_visibility = ["//visibility:public"])
+
+ng_module(
+    name = "stepper",
+    srcs = glob(
+        ["**/*.ts"],
+        exclude = ["**/*.spec.ts"],
+    ),
+    deps = [
+        "//src:dev_mode_types",
+        "//src/cdk/a11y",
+        "//src/cdk/bidi",
+        "//src/cdk/coercion",
+        "//src/cdk/keycodes",
+        "//src/cdk/platform",
+        "@npm//@angular/core",
+        "@npm//@angular/forms",
+        "@npm//rxjs",
+    ],
+)
+
+markdown_to_html(
+    name = "overview",
+    srcs = [":stepper.md"],
+)
+
+filegroup(
+    name = "source-files",
+    srcs = glob(["**/*.ts"]),
+)

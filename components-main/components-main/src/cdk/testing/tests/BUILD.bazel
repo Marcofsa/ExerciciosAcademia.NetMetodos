@@ -1,0 +1,97 @@
+load("//tools:defaults.bzl", "ng_e2e_test_library", "ng_module", "ng_test_library", "ts_library")
+
+package(default_visibility = ["//visibility:public"])
+
+ng_module(
+    name = "test_components",
+    testonly = True,
+    srcs = glob(
+        ["**/*.ts"],
+        exclude = [
+            "**/*.spec.ts",
+            "harnesses/**",
+        ],
+    ),
+    assets = glob(["**/*.html"]),
+    deps = [
+        "//src/cdk/keycodes",
+        "//src/cdk/platform",
+        "@npm//@angular/forms",
+    ],
+)
+
+ts_library(
+    name = "test_harnesses",
+    srcs = glob(["harnesses/**/*.ts"]),
+    deps = [
+        "//src/cdk/testing",
+    ],
+)
+
+ng_test_library(
+    name = "cross_environment_specs",
+    srcs = ["cross-environment.spec.ts"],
+    deps = [
+        ":test_harnesses",
+        "//src/cdk/testing",
+    ],
+)
+
+ng_test_library(
+    name = "unit_test_sources",
+    srcs = glob(
+        [
+            "**/*.spec.ts",
+        ],
+        exclude = [
+            "cross-environment.spec.ts",
+            "**/*.e2e.spec.ts",
+        ],
+    ),
+    deps = [
+        ":cross_environment_specs",
+        ":test_components",
+        ":test_harnesses",
+        "//src/cdk/platform",
+        "//src/cdk/testing",
+        "//src/cdk/testing/private",
+        "//src/cdk/testing/testbed",
+        "@npm//@angular/platform-browser",
+        "@npm//kagekiri",
+    ],
+)
+
+ng_e2e_test_library(
+    name = "e2e_test_sources",
+    srcs = glob(
+        [
+            "**/*.e2e.spec.ts",
+        ],
+        exclude = ["webdriver.e2e.spec.ts"],
+    ),
+    deps = [
+        ":cross_environment_specs",
+        ":test_harnesses",
+        "//src/cdk/testing",
+        "//src/cdk/testing/private",
+        "//src/cdk/testing/protractor",
+    ],
+)
+
+ts_library(
+    name = "webdriver_test_sources",
+    testonly = True,
+    srcs = ["webdriver.e2e.spec.ts"],
+    # TODO(ESM): remove this once the Bazel NodeJS rules can handle ESM with `nodejs_binary`.
+    devmode_module = "commonjs",
+    deps = [
+        ":cross_environment_specs",
+        ":test_harnesses",
+        "//src/cdk/testing",
+        "//src/cdk/testing/selenium-webdriver",
+        "@npm//@bazel/runfiles",
+        "@npm//@types/jasmine",
+        "@npm//@types/node",
+        "@npm//@types/selenium-webdriver",
+    ],
+)

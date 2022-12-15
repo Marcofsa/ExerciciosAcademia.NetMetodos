@@ -1,0 +1,31 @@
+load("//tools:defaults.bzl", "ng_module", "sass_binary")
+
+package(default_visibility = ["//visibility:public"])
+
+ng_module(
+    name = "tree",
+    srcs = glob(["**/*.ts"]),
+    assets = glob([
+        "**/*.html",
+    ]) + [
+        ":tree_demo_scss",
+    ],
+    deps = [
+        "//src/cdk/tree",
+        "//src/components-examples/cdk/tree",
+        "//src/components-examples/material/tree",
+        "//src/material/button",
+        "//src/material/checkbox",
+        "//src/material/expansion",
+        "//src/material/form-field",
+        "//src/material/icon",
+        "//src/material/input",
+        "//src/material/progress-bar",
+        "//src/material/tree",
+    ],
+)
+
+sass_binary(
+    name = "tree_demo_scss",
+    src = "tree-demo.scss",
+)

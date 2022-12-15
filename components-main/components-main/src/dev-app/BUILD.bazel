@@ -1,0 +1,198 @@
+load("@build_bazel_rules_nodejs//:index.bzl", "pkg_web")
+load("//tools:defaults.bzl", "devmode_esbuild", "esbuild_config", "http_server", "ng_module", "sass_binary")
+load("//src/components-examples:config.bzl", "ALL_EXAMPLES")
+load("//tools/angular:index.bzl", "LINKER_PROCESSED_FW_PACKAGES")
+
+package(default_visibility = ["//visibility:public"])
+
+ng_module(
+    name = "dev-app",
+    srcs = [
+        "dev-app.ts",
+        "main.ts",
+        "routes.ts",
+    ],
+    deps = [
+        "//src/cdk/bidi",
+        "//src/cdk/overlay",
+        "//src/dev-app/autocomplete",
+        "//src/dev-app/badge",
+        "//src/dev-app/baseline",
+        "//src/dev-app/bottom-sheet",
+        "//src/dev-app/button",
+        "//src/dev-app/button-toggle",
+        "//src/dev-app/card",
+        "//src/dev-app/cdk-dialog",
+        "//src/dev-app/cdk-experimental-combobox",
+        "//src/dev-app/cdk-listbox",
+        "//src/dev-app/cdk-menu",
+        "//src/dev-app/checkbox",
+        "//src/dev-app/chips",
+        "//src/dev-app/clipboard",
+        "//src/dev-app/column-resize",
+        "//src/dev-app/connected-overlay",
+        "//src/dev-app/datepicker",
+        "//src/dev-app/dev-app",
+        "//src/dev-app/dialog",
+        "//src/dev-app/drag-drop",
+        "//src/dev-app/drawer",
+        "//src/dev-app/example",
+        "//src/dev-app/examples-page",
+        "//src/dev-app/expansion",
+        "//src/dev-app/focus-origin",
+        "//src/dev-app/focus-trap",
+        "//src/dev-app/google-map",
+        "//src/dev-app/grid-list",
+        "//src/dev-app/icon",
+        "//src/dev-app/input",
+        "//src/dev-app/input-modality",
+        "//src/dev-app/layout",
+        "//src/dev-app/legacy-autocomplete",
+        "//src/dev-app/legacy-baseline",
+        "//src/dev-app/legacy-button",
+        "//src/dev-app/legacy-card",
+        "//src/dev-app/legacy-checkbox",
+        "//src/dev-app/legacy-chips",
+        "//src/dev-app/legacy-datepicker",
+        "//src/dev-app/legacy-dialog",
+        "//src/dev-app/legacy-input",
+        "//src/dev-app/legacy-list",
+        "//src/dev-app/legacy-menu",
+        "//src/dev-app/legacy-paginator",
+        "//src/dev-app/legacy-progress-bar",
+        "//src/dev-app/legacy-progress-spinner",
+        "//src/dev-app/legacy-radio",
+        "//src/dev-app/legacy-select",
+        "//src/dev-app/legacy-slide-toggle",
+        "//src/dev-app/legacy-slider",
+        "//src/dev-app/legacy-snack-bar",
+        "//src/dev-app/legacy-table",
+        "//src/dev-app/legacy-tabs",
+        "//src/dev-app/legacy-tooltip",
+        "//src/dev-app/list",
+        "//src/dev-app/live-announcer",
+        "//src/dev-app/menu",
+        "//src/dev-app/menubar",
+        "//src/dev-app/paginator",
+        "//src/dev-app/platform",
+        "//src/dev-app/popover-edit",
+        "//src/dev-app/portal",
+        "//src/dev-app/progress-bar",
+        "//src/dev-app/progress-spinner",
+        "//src/dev-app/radio",
+        "//src/dev-app/ripple",
+        "//src/dev-app/screen-type",
+        "//src/dev-app/select",
+        "//src/dev-app/selection",
+        "//src/dev-app/sidenav",
+        "//src/dev-app/slide-toggle",
+        "//src/dev-app/slider",
+        "//src/dev-app/snack-bar",
+        "//src/dev-app/stepper",
+        "//src/dev-app/table",
+        "//src/dev-app/table-scroll-container",
+        "//src/dev-app/tabs",
+        "//src/dev-app/toolbar",
+        "//src/dev-app/tooltip",
+        "//src/dev-app/tree",
+        "//src/dev-app/typography",
+        "//src/dev-app/virtual-scroll",
+        "//src/dev-app/youtube-player",
+        "//src/material/core",
+        "@npm//@angular/compiler",
+        "@npm//@angular/localize",
+        "@npm//@angular/router",
+    ],
+)
+
+esbuild_config(
+    name = "esbuild_config",
+    config_file = "esbuild.config.mjs",
+)
+
+devmode_esbuild(
+    name = "bundles",
+    config = ":esbuild_config",
+    entry_points = [":main.ts"] + ["%s:index.ts" % e for e in ALL_EXAMPLES],
+    platform = "browser",
+    splitting = True,
+    # We cannot use `ES2017` or higher as that would result in `async/await` not being downleveled.
+    # ZoneJS needs to be able to intercept these as otherwise change detection would not work properly.
+    target = "es2016",
+    # Note: We add all linker-processed FW packages as dependencies here so that ESBuild will
+    # map all framework packages to their linker-processed bundles from `tools/angular`.
+    deps = LINKER_PROCESSED_FW_PACKAGES + [
+        ":dev-app",
+    ],
+)
+
+sass_binary(
+    name = "theme",
+    src = "theme.scss",
+    deps = [
+        "//src/material:sass_lib",
+        "//src/material-experimental:sass_lib",
+        "//src/material/core:theming_scss_lib",
+    ],
+)
+
+# Variables that are going to be inlined into the dev app index.html.
+filegroup(
+    name = "variables",
+    # Note that we need the * in the pattern, because there's a lint rule which
+    # doesn't allow single files in a `glob`. We have to use a glob, because the file is optional.
+    srcs = glob(["*variables.json"]),
+)
+
+# File group for all static files which are needed to serve the dev-app. These files are
+# used in the devserver as runfiles and will be copied into the static web package that can
+# be deployed on static hosting services (like firebase).
+filegroup(
+    name = "dev_app_static_files",
+    srcs = [
+        "favicon.ico",
+        "index.html",
+        ":theme",
+        ":variables",
+        "//src/dev-app/icon:icon_demo_assets",
+        "@npm//:node_modules/moment/min/moment-with-locales.min.js",
+        "@npm//:node_modules/rxjs/bundles/rxjs.umd.min.js",
+        "@npm//:node_modules/zone.js/dist/zone.js",
+    ],
+)
+
+http_server(
+    name = "devserver",
+    srcs = [":dev_app_static_files"],
+    additional_root_paths = [
+        "npm/node_modules",
+        # Needed for compatibility with "pkg_web" which always uses the tree
+        # artifact output as workspace root.
+        "angular_material",
+    ],
+    enable_dev_ui = True,
+    # List of environment variables that will be made available as `window.<NAME>` in the
+    # served `index.html` throuhg an injected script. Useful for allowing developers to
+    # configure API keys without requiring secrets to be committed.
+    environment_variables = [
+        "GOOGLE_MAPS_KEY",
+    ],
+    tags = ["manual"],
+    deps = [
+        ":bundles",
+    ],
+)
+
+# Target that builds a static web package of the dev-app. The web package can be
+# deployed on static hosting services (such as firebase).
+pkg_web(
+    name = "web_package",
+    srcs = [
+        ":bundles",
+        ":dev_app_static_files",
+    ],
+    additional_root_paths = [
+        "npm/node_modules",
+    ],
+    tags = ["manual"],
+)

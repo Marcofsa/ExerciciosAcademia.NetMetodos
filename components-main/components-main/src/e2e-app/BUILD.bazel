@@ -1,0 +1,115 @@
+load("//tools:defaults.bzl", "devmode_esbuild", "esbuild_config", "http_server", "ng_module", "sass_binary")
+load("//src/components-examples:config.bzl", "ALL_EXAMPLES")
+load("//tools/angular:index.bzl", "LINKER_PROCESSED_FW_PACKAGES")
+
+package(default_visibility = ["//visibility:public"])
+
+# List of dependencies that are referenced in the `index.html` file.
+devserverIndexHtmlDependencies = [
+    "@npm//zone.js",
+    "@npm//kagekiri",
+    "//src/material/prebuilt-themes:indigo-pink",
+    ":index.html",
+    ":theme",
+]
+
+exports_files([
+    "protractor.conf.js",
+    "start-devserver.js",
+    "devserver-configure.js",
+])
+
+ng_module(
+    name = "e2e-app",
+    testonly = True,
+    srcs = glob(
+        ["**/*.ts"],
+        exclude = ["test-util/**"],
+    ),
+    assets = glob(
+        [
+            "**/*.html",
+            "**/*.css",
+        ],
+        exclude = ["index.html"],
+    ),
+    deps = [
+        "//src/cdk-experimental/scrolling",
+        "//src/cdk/dialog",
+        "//src/cdk/drag-drop",
+        "//src/cdk/overlay",
+        "//src/cdk/scrolling",
+        "//src/cdk/testing/tests:test_components",
+        "//src/components-examples/private",
+        "//src/material/button",
+        "//src/material/card",
+        "//src/material/checkbox",
+        "//src/material/chips",
+        "//src/material/core",
+        "//src/material/dialog",
+        "//src/material/grid-list",
+        "//src/material/icon",
+        "//src/material/input",
+        "//src/material/menu",
+        "//src/material/progress-bar",
+        "//src/material/progress-spinner",
+        "//src/material/radio",
+        "//src/material/select",
+        "//src/material/sidenav",
+        "//src/material/slide-toggle",
+        "//src/material/slider",
+        "//src/material/table",
+        "//src/material/tabs",
+        "@npm//@angular/animations",
+        "@npm//@angular/core",
+        "@npm//@angular/forms",
+        "@npm//@angular/platform-browser",
+        "@npm//@angular/router",
+    ],
+)
+
+sass_binary(
+    name = "theme",
+    src = "theme.scss",
+    deps = [
+        "//src/material:sass_lib",
+        "//src/material-experimental:sass_lib",
+        "//src/material/core:theming_scss_lib",
+    ],
+)
+
+esbuild_config(
+    name = "esbuild_config",
+    testonly = True,
+    config_file = "esbuild.config.mjs",
+)
+
+devmode_esbuild(
+    name = "bundles",
+    testonly = True,
+    config = ":esbuild_config",
+    entry_points = [":main.ts"] + ["%s:index.ts" % e for e in ALL_EXAMPLES],
+    platform = "browser",
+    splitting = True,
+    # We cannot use `ES2017` or higher as that would result in `async/await` not being downleveled.
+    # ZoneJS needs to be able to intercept these as otherwise change detection would not work properly.
+    target = "es2016",
+    # Note: We add all linker-processed FW packages as dependencies here so that ESBuild will
+    # map all framework packages to their linker-processed bundles from `tools/angular`.
+    deps = LINKER_PROCESSED_FW_PACKAGES + [
+        ":e2e-app",
+    ],
+)
+
+http_server(
+    name = "server",
+    testonly = True,
+    srcs = devserverIndexHtmlDependencies,
+    additional_root_paths = [
+        "npm/node_modules",
+    ],
+    tags = ["manual"],
+    deps = [
+        ":bundles",
+    ],
+)

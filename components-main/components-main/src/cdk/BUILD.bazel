@@ -1,0 +1,68 @@
+load("//src/cdk:config.bzl", "CDK_ENTRYPOINTS", "CDK_ENTRYPOINTS_WITH_STYLES", "CDK_SCSS_LIBS", "CDK_TARGETS")
+load("//tools:defaults.bzl", "ng_package", "sass_library", "ts_library")
+
+package(default_visibility = ["//visibility:public"])
+
+ts_library(
+    name = "cdk",
+    srcs = glob(
+        ["*.ts"],
+        exclude = ["**/*.spec.ts"],
+    ),
+    deps = ["@npm//@angular/core"],
+)
+
+# List of style files that need to be copied to the root of the CDK package. We do this
+# to make it easier for developers to import these styles without needing to know about
+# deep imports in the release output. Note that this is done for backwards compatibility
+# with the Gulp release output. TODO(devversion): consider removing this in the future.
+prebuiltStyles = [file for target in CDK_ENTRYPOINTS_WITH_STYLES for file in [
+    [
+        "%s-prebuilt.css" % target,
+        target,
+    ],
+]]
+
+# Create genrules that output prebuilt stylesheets for secondary entry-points with styles.
+[genrule(
+    name = "%s_prebuilt" % file,
+    srcs = ["//src/cdk/%s:%s" % (target, file)],
+    outs = [file],
+    cmd = "cp $< $@",
+) for [
+    file,
+    target,
+] in prebuiltStyles]
+
+# List of targets which generate the re-rooted stylesheet files.
+prebuiltStyleTargets = ["%s_prebuilt" % file for [
+    file,
+    _,
+] in prebuiltStyles]
+
+sass_library(
+    name = "sass_lib",
+    srcs = ["_index.scss"],
+    deps = CDK_SCSS_LIBS,
+)
+
+# Creates the @angular/cdk package published to npm.
+ng_package(
+    name = "npm_package",
+    srcs = [
+        "package.json",
+        ":sass_lib",
+    ] + prebuiltStyleTargets + CDK_SCSS_LIBS,
+    nested_packages = [
+        "//src/cdk/schematics:npm_package",
+    ],
+    tags = ["release-package"],
+    deps = CDK_TARGETS,
+)
+
+filegroup(
+    name = "overviews",
+    # Only secondary entry-points declare overview files currently. Entry-points
+    # which contain a slash are not in the top-level and do not have an overview.
+    srcs = ["//src/cdk/%s:overview" % ep for ep in CDK_ENTRYPOINTS if not "/" in ep],
+)

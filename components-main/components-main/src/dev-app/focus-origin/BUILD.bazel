@@ -1,0 +1,20 @@
+load("//tools:defaults.bzl", "ng_module", "sass_binary")
+
+package(default_visibility = ["//visibility:public"])
+
+ng_module(
+    name = "focus-origin",
+    srcs = glob(["**/*.ts"]),
+    assets = [
+        "focus-origin-demo.html",
+        ":focus_origin_demo_scss",
+    ],
+    deps = [
+        "//src/cdk/a11y",
+    ],
+)
+
+sass_binary(
+    name = "focus_origin_demo_scss",
+    src = "focus-origin-demo.scss",
+)
